@@ -1,9 +1,9 @@
 {
   "1": {
       "name": "Jon",
-      ""
+      "country": "Kosovo",
+      "city": "Suhareke",
+      "languages": ["English", "Albanian"]
   }
-
-
 
 }
