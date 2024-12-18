@@ -1,0 +1,12 @@
+{
+    "1" : {
+        "title": "Romeo and Juliet",
+        "author": "William Shakespeare",
+        "rating": 3.75,
+        "genres": ["Plays", "Fiction", "Classics", "School", "Read For School", "Literature", "High School", "Poetry", "Classic Literature", "Tragedy"],
+        "description": "In Romeo and Juliet, Shakespeare creates a violent world, in which two young people fall in love. It is not simply that their families disapprove; the Montagues and the Capulets are engaged in a blood feud.\n\nIn this death-filled setting, the movement from love at first sight to the lovers’ final union in death seems almost inevitable. And yet, this play set in an extraordinary world has become the quintessential story of young love. In part because of its exquisite language, it is easy to respond as if it were about all young lovers."
+    },
+    "2" : {
+
+    }
+}
