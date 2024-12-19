@@ -23,5 +23,5 @@ class DataFetcher:
         return {"users": DataFetcher.getUsers(), "items": DataFetcher.getBooks(), "user-items": DataFetcher.getUserBooks()}
 
 
-print(DataFetcher.getAllData())
+
 
