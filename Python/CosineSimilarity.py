@@ -1,6 +1,10 @@
 from DataFetcher import DataFetcher
 import re
 from collections import defaultdict
+import ctypes
+
+
+
 
 class ItemBasedFilter:
 
@@ -22,6 +26,8 @@ class ItemBasedFilter:
         allUserBooks = DataFetcher.getUserBooks()
 
         ratedBooksIds = set()
+
+
         ratedBooksRatings = {}
 
         for i in range(len(allUserBooks)):
@@ -39,13 +45,95 @@ class ItemBasedFilter:
             else:
                 unRatedBooks[bookId] = allBooks[bookId]
 
-        ItemBasedFilter.createVectorCategory(allBooks, "title")
+        ItemBasedFilter.filterAndSendToC(allBooks, ratedBooksIds)
 
 
 
     @staticmethod
-    def createVectorCategory(allBooks, category):
-        matrix = ItemBasedFilter.createVectorCategoryMatrix(allBooks, category)
+    def filterAndSendToC(allBooks, ratedBooksId):
+
+        cFunctions = ctypes.CDLL('../CFiles/CosineSimilarity.dll')
+        cFunctions.cosineSimilarity.argtypes = [ctypes.POINTER(ctypes.c_double),
+                                                ctypes.POINTER(ctypes.c_double),
+                                                ctypes.c_int]
+        cFunctions.cosineSimilarity.restype = ctypes.c_double
+
+        #Helper function
+        def cosine_similarity_py(arrA, arrB):
+            n = len(arrA)
+            if len(arrB) != n:
+                raise ValueError("Input arrays must have the same length")
+
+            # Convert Python lists to ctypes arrays
+            arrayA = (ctypes.c_double * n)(*arrA)
+            arrayB = (ctypes.c_double * n)(*arrB)
+
+            # Call the C function
+            result = cFunctions.cosineSimilarity(arrayA, arrayB, n)
+            return result
+
+
+        titleCategoryMatrix = ItemBasedFilter.createVectorCategory(allBooks, "title", True)
+        authorCategoryMatrix = ItemBasedFilter.createVectorCategory(allBooks, "author", True)
+        genreCategoryMatrix = ItemBasedFilter.createVectorCategory(allBooks, "genres", False)
+        descriptionCategoryMatrix = ItemBasedFilter.createVectorCategory(allBooks, "description", True)
+
+        titleRated = {}
+        titleUnrated = {}
+        ItemBasedFilter.filterRatedUnrated(titleCategoryMatrix, titleRated, titleUnrated, ratedBooksId)
+
+        authorRated = {}
+        authorUnRated = {}
+        ItemBasedFilter.filterRatedUnrated(authorCategoryMatrix, authorRated, authorUnRated, ratedBooksId)
+
+
+        genresRated = {}
+        genresUnRated = {}
+        ItemBasedFilter.filterRatedUnrated(genreCategoryMatrix, genresRated, genresUnRated, ratedBooksId)
+        print(genresRated)
+        print(genresUnRated)
+
+        genreCosineSimilarityMatrix = {}
+
+
+        for bookId in genresRated:
+            for bookId_2 in genresUnRated:
+                genreCosineSimilarityMatrix.setdefault(bookId, {})
+                genreCosineSimilarityMatrix[bookId][bookId_2] = cosine_similarity_py(genresRated[bookId], genresUnRated[bookId_2])
+
+        print(genreCosineSimilarityMatrix)
+
+        descriptionRated = {}
+        descriptionUnrated = {}
+        ItemBasedFilter.filterRatedUnrated(descriptionCategoryMatrix, descriptionRated, descriptionUnrated, ratedBooksId)
+
+
+        return None
+
+
+
+
+
+    @staticmethod
+    def filterRatedUnrated(matrix, rated, unrated, ratedBooksRating):
+        print("Here", ratedBooksRating)
+        for bookId in matrix:
+            if bookId in ratedBooksRating:
+                rated[bookId] = matrix[bookId]
+            else:
+                unrated[bookId] = matrix[bookId]
+
+
+
+
+
+    @staticmethod
+    def createVectorCategory(allBooks, category, sentence):
+        if sentence:
+            matrix = ItemBasedFilter.createVectorCategoryMatrixSentences(allBooks, category)
+        else:
+            matrix = ItemBasedFilter.createVectorCategoryMatrixLists(allBooks, category)
+
         vectorMatrix = defaultdict(list)
 
         for bookId in allBooks:
@@ -58,13 +146,13 @@ class ItemBasedFilter:
 
 
     @staticmethod
-    def createVectorCategoryMatrix(allBooks, category) -> dict:
+    def createVectorCategoryMatrixSentences(allBooks, category) -> dict:
         returnMatrix = {}
 
         for bookId in allBooks:
 
             valueCategory = allBooks[bookId][category]
-            words = [word.lower() for word in re.findall(r'\w+', valueCategory)]
+            words = [word.lower().strip for word in re.findall(r'\w+', valueCategory)]
 
             for word in words:
                 if word in returnMatrix:
@@ -76,19 +164,31 @@ class ItemBasedFilter:
                     returnMatrix[word] = {bookId:1}
 
 
-        print(returnMatrix)
+        #print(returnMatrix)
+        return returnMatrix
+
+
+    @staticmethod
+    def createVectorCategoryMatrixLists(allBooks, category):
+        returnMatrix = {}
+
+        for bookId in allBooks:
+            words = allBooks[bookId][category]
+
+            for word in words:
+                if word in returnMatrix:
+                    if bookId in returnMatrix[word]:
+                        returnMatrix[word][bookId] += 1
+                    else:
+                        returnMatrix[word][bookId] = 1
+                else:
+                    returnMatrix[word] = {bookId: 1}
+
+        # print(returnMatrix)
         return returnMatrix
 
 
 
-    @staticmethod
-    def cosineSimilarity():
-        # import ctypes
-        #
-        # c = ctypes.CDLL('../CFiles/CosineSimilarity.dll')
-        # c.say_hello()
-
-        pass
 
 ItemBasedFilter.getRecommendations(1)
 
