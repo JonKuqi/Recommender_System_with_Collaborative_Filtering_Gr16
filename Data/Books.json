@@ -5,8 +5,1118 @@
         "rating": 3.75,
         "genres": ["Plays", "Fiction", "Classics", "School", "Read For School", "Literature", "High School", "Poetry", "Classic Literature", "Tragedy"],
         "description": "In Romeo and Juliet, Shakespeare creates a violent world, in which two young people fall in love. It is not simply that their families disapprove; the Montagues and the Capulets are engaged in a blood feud.\n\nIn this death-filled setting, the movement from love at first sight to the lovers’ final union in death seems almost inevitable. And yet, this play set in an extraordinary world has become the quintessential story of young love. In part because of its exquisite language, it is easy to respond as if it were about all young lovers."
+    },"2": {
+        "title": "1984",
+        "author": "George Orwell",
+        "rating": 4.2,
+        "genres": ["Dystopian", "Science Fiction", "Political Fiction", "Classics", "Literature", "Philosophy", "Fiction", "Social Commentary"],
+        "description": "1984 is a chilling portrayal of a totalitarian regime that uses surveillance, censorship, and mind control to maintain power. Winston Smith, the protagonist, tries to defy the oppressive government led by Big Brother, but he soon discovers that resistance is futile in a world where reality is shaped by those in control."
     },
-    "2" : {
+    "3": {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "rating": 4.5,
+        "genres": ["Classics", "Fiction", "Literature", "Historical Fiction", "Social Issues", "Coming-of-Age", "Justice", "Family"],
+        "description": "Set in the racially segregated Southern United States during the 1930s, this novel tells the story of Scout Finch, a young girl whose father, lawyer Atticus Finch, defends a black man falsely accused of raping a white woman. This novel addresses themes of prejudice, morality, and justice."
+    },
+    "4": {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "rating": 3.9,
+        "genres": ["Fiction", "Classics", "Literature", "Young Adult", "Psychological Fiction", "Coming-of-Age", "Mental Health", "Schools"],
+        "description": "Holden Caulfield, a disillusioned teenager, narrates his experiences after being expelled from an elite prep school. As he wanders New York City, Holden grapples with depression, alienation, and the loss of innocence, offering a poignant reflection on adolescence and society."
+    },
+    "5": {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "rating": 4.1,
+        "genres": ["Classics", "Adventure", "Fiction", "Literature", "Philosophy", "Sea Adventures", "Existentialism"],
+        "description": "Moby-Dick tells the story of Captain Ahab’s obsessive quest to kill the giant white whale, Moby Dick, that severed his leg. The novel explores themes of obsession, fate, and the human condition, set against the backdrop of a whaling voyage."
+    },
+    "6": {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "rating": 4.3,
+        "genres": ["Romance", "Classics", "Literature", "Historical Fiction", "Social Commentary", "Family", "Feminism"],
+        "description": "This beloved novel follows the lives of the Bennet family, particularly Elizabeth Bennet, as she navigates societal expectations, family dynamics, and her evolving relationship with the proud Mr. Darcy. It offers biting commentary on class, marriage, and social standing."
+    },
+    "7": {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "rating": 4.0,
+        "genres": ["Classics", "Fiction", "Literature", "Historical Fiction", "Romance", "American Literature", "Tragedy"],
+        "description": "The Great Gatsby explores the Jazz Age's extravagant lifestyle and the pursuit of the American Dream through the eyes of narrator Nick Carraway, who witnesses the rise and fall of Jay Gatsby, a man obsessed with rekindling a past romance with Daisy Buchanan."
+    },
+    "8": {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "rating": 4.1,
+        "genres": ["Dystopian", "Science Fiction", "Philosophy", "Literature", "Social Commentary", "Political Fiction", "Satire"],
+        "description": "In a future world where humans are genetically engineered and society is shaped by pleasure and consumption, Bernard Marx struggles with his dissatisfaction and alienation. The novel explores themes of technology, conformity, and individual freedom."
+    },
+    "9": {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "rating": 4.2,
+        "genres": ["Gothic", "Science Fiction", "Classics", "Horror", "Literature", "Philosophy", "Romance"],
+        "description": "Frankenstein tells the tale of Victor Frankenstein, a scientist who creates a creature in a horrific experiment. The novel explores themes of creation, responsibility, and the consequences of scientific ambition, and is often seen as a cautionary tale about unchecked progress."
+    },
+    "10": {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "rating": 4.7,
+        "genres": ["Fantasy", "Adventure", "Fiction", "Classics", "Children's Literature", "Epic", "Mythology"],
+        "description": "Bilbo Baggins, a hobbit, embarks on a perilous journey with a group of dwarves to reclaim their home from the dragon Smaug. Along the way, Bilbo encounters trolls, goblins, and elves, while discovering his own bravery and resourcefulness."
+    },
+    "11": {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "rating": 4.0,
+        "genres": ["Gothic", "Philosophical Fiction", "Classics", "Literature", "Psychological Fiction", "Drama"],
+        "description": "Dorian Gray, a handsome young man, remains eternally youthful while his portrait ages, reflecting the moral decay of his character. This novel critiques vanity, hedonism, and the pursuit of beauty, and is one of Wilde's most enduring works."
+    },
+    "12": {
+        "title": "The Odyssey",
+        "author": "Homer",
+        "rating": 4.3,
+        "genres": ["Epic", "Classics", "Poetry", "Mythology", "Adventure", "Historical Fiction"],
+        "description": "The Odyssey follows the adventures of Odysseus as he struggles to return home after the Trojan War. Along the way, he faces monsters, gods, and temptations, while his wife Penelope waits for his return. The epic explores themes of perseverance, loyalty, and fate."
+    },
+    "13": {
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "rating": 4.0,
+        "genres": ["Dystopian", "Fiction", "Post-apocalyptic", "Literature", "Survival", "Family"],
+        "description": "A father and his young son journey through a bleak, post-apocalyptic landscape, struggling to survive against both the environment and other survivors. The novel explores love, survival, and the human spirit in a world where hope is scarce."
+    },
+    "14": {
+        "title": "Catch-22",
+        "author": "Joseph Heller",
+        "rating": 4.0,
+        "genres": ["Satire", "War", "Fiction", "Literature", "Dark Comedy", "Political Fiction"],
+        "description": "Catch-22 is a satirical novel that critiques the absurdities of war. The protagonist, Yossarian, a U.S. Army Air Forces bombardier, tries to escape the insanity of war and the contradictory rule of 'Catch-22' that ensures his doomed fate."
+    },
+    "15": {
+        "title": "The Bell Jar",
+        "author": "Sylvia Plath",
+        "rating": 3.9,
+        "genres": ["Fiction", "Classics", "Literature", "Psychological Fiction", "Mental Health", "Autobiographical"],
+        "description": "The Bell Jar follows Esther Greenwood, a young woman whose life unravels as she grapples with depression, societal expectations, and her own ambitions. The novel explores themes of identity, mental illness, and the struggle for autonomy."
+    },
+    "16": {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "rating": 4.5,
+        "genres": ["Horror", "Thriller", "Fiction", "Psychological Fiction", "Supernatural"],
+        "description": "Jack Torrance takes a job as the winter caretaker of the Overlook Hotel, where he begins to unravel due to isolation and the influence of a malevolent supernatural force. The novel explores themes of madness, family, and the supernatural."
+    },
+    "17": {
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett",
+        "rating": 4.3,
+        "genres": ["Children's Literature", "Classics", "Fiction", "Coming-of-Age", "Family", "Nature"],
+        "description": "After the death of her parents, Mary Lennox is sent to live with her uncle in a gloomy mansion. There, she discovers a hidden garden that becomes a place of healing and transformation for both herself and others."
+    },
+    "18": {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "rating": 4.3,
+        "genres": ["Dystopian", "Science Fiction", "Adventure", "Fiction", "Young Adult", "Political Fiction"],
+        "description": "In a future society, Katniss Everdeen must compete in a televised gladiatorial contest where only one person can survive. The novel critiques social inequality, the media, and the violence of survival, while exploring themes of resistance and sacrifice."
+    },
+    "19": {
+        "title": "Little Women",
+        "author": "Louisa May Alcott",
+        "rating": 4.4,
+        "genres": ["Classics", "Fiction", "Literature", "Family", "Coming-of-Age"],
+        "description": "The novel follows the lives of the four March sisters—Jo, Meg, Beth, and Amy—as they navigate growing up, personal struggles, and familial bonds during the American Civil War. Themes of love, sacrifice, and individuality shine through."
+    },
+    "20": {
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "rating": 4.7,
+        "genres": ["Fantasy", "Adventure", "Children's Literature", "Fiction", "Magic", "Allegory"],
+        "description": "The Chronicles of Narnia is a series of seven fantasy novels set in the magical land of Narnia, where talking animals, mythical creatures, and adventure await. The series explores good versus evil, faith, and personal growth."
+    },
+    "21": {
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "rating": 4.3,
+        "genres": ["Fiction", "Historical Fiction", "Literature", "Drama", "Family", "War"],
+        "description": "The Kite Runner follows the story of Amir, a young boy from Kabul, and his complex relationship with his friend Hassan, set against the backdrop of political turmoil and the Soviet invasion of Afghanistan."
+    },
+    "22": {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "rating": 4.4,
+        "genres": ["Fiction", "Adventure", "Philosophy", "Spirituality", "Self-help", "Classics"],
+        "description": "The Alchemist tells the story of Santiago, a young shepherd who embarks on a journey in search of treasure. Along the way, he learns valuable life lessons about following one's dreams and the importance of listening to one's heart."
+    },
+    "23": {
+        "title": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "rating": 4.1,
+        "genres": ["Psychological Thriller", "Mystery", "Fiction", "Suspense", "Crime"],
+        "description": "Rachel, an alcoholic woman, becomes obsessed with a couple she watches from the train each day. When the woman goes missing, Rachel is drawn into the investigation, leading to twists and revelations about her own past."
+    },
+    "24": {
+        "title": "The Outsiders",
+        "author": "S.E. Hinton",
+        "rating": 4.2,
+        "genres": ["Fiction", "Classics", "Young Adult", "Literature", "Family", "Coming-of-Age"],
+        "description": "The Outsiders is a story about two rival teenage gangs, the Greasers and the Socs, and the struggles they face in a divided society. Themes of friendship, identity, and social inequality are explored."
+    },
+    "25": {
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "rating": 4.1,
+        "genres": ["Gothic", "Classics", "Romance", "Fiction", "Literature", "Psychological Fiction"],
+        "description": "Wuthering Heights tells the tragic story of Heathcliff and Catherine Earnshaw, whose passionate and destructive love impacts not only their lives but the lives of future generations. It is a haunting exploration of love, vengeance, and obsession."
+    },
+    "26": {
+        "title": "A Game of Thrones",
+        "author": "George R.R. Martin",
+        "rating": 4.4,
+        "genres": ["Fantasy", "Adventure", "Political Fiction", "Epic", "Fiction"],
+        "description": "A Game of Thrones is the first book in the epic series 'A Song of Ice and Fire,' which follows the political and military struggles of various noble houses in the Seven Kingdoms of Westeros. It is known for its complex characters, power struggles, and brutal betrayals."
+    },
+    "27": {
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "rating": 4.2,
+        "genres": ["Dystopian", "Science Fiction", "Feminism", "Literature", "Political Fiction"],
+        "description": "Set in a totalitarian society, The Handmaid's Tale tells the story of Offred, a woman forced into reproductive servitude in a world where women’s rights have been stripped away. It explores themes of power, gender, and resistance."
+    },
+    "28": {
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck",
+        "rating": 4.3,
+        "genres": ["Classics", "Fiction", "Historical Fiction", "American Literature", "Social Commentary"],
+        "description": "The Grapes of Wrath follows the Joad family as they leave Oklahoma during the Great Depression and head west to California in search of a better life. The novel highlights the struggles of migrant workers and critiques social inequality."
+    },
+    "29": {
+        "title": "The Silence of the Lambs",
+        "author": "Thomas Harris",
+        "rating": 4.3,
+        "genres": ["Thriller", "Crime", "Fiction", "Psychological Fiction", "Horror", "Suspense"],
+        "description": "FBI agent Clarice Starling seeks the help of imprisoned cannibalistic serial killer Hannibal Lecter to catch another serial killer on the loose. The novel is a chilling exploration of human depravity and psychological manipulation."
+    },
+    "30": {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "rating": 4.5,
+        "genres": ["Dystopian", "Young Adult", "Fiction", "Adventure", "Political Fiction", "Science Fiction"],
+        "description": "Set in a future dystopian society, Katniss Everdeen is thrust into a brutal televised competition where children fight to the death. The novel critiques the exploitation of reality television and explores themes of survival, rebellion, and sacrifice."
+    },
+     "31": {
+        "title": "The Fault in Our Stars",
+        "author": "John Green",
+        "rating": 4.4,
+        "genres": ["Romance", "Young Adult", "Fiction", "Cancer", "Coming-of-Age", "Drama"],
+        "description": "Hazel Grace Lancaster, a teenage cancer patient, falls in love with Augustus Waters, a cancer survivor. Together, they navigate the challenges of illness, love, and mortality in this emotional and heart-wrenching novel."
+    },
+    "32": {
+        "title": "The Lion, the Witch, and the Wardrobe",
+        "author": "C.S. Lewis",
+        "rating": 4.6,
+        "genres": ["Fantasy", "Adventure", "Children's Literature", "Magic", "Classics"],
+        "description": "Four siblings are transported to the magical land of Narnia through an old wardrobe, where they join forces with Aslan the lion to fight against the White Witch and bring peace to the land."
+    },
+    "33": {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "rating": 3.8,
+        "genres": ["Fiction", "Classics", "Literature", "Coming-of-Age", "Psychological Fiction", "Schools"],
+        "description": "Holden Caulfield, a disillusioned teenager, narrates his experiences after being expelled from an elite prep school. He grapples with depression, alienation, and the loss of innocence."
+    },
+    "34": {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "rating": 4.7,
+        "genres": ["Fantasy", "Adventure", "Children's Literature", "Epic", "Mythology"],
+        "description": "Bilbo Baggins, a hobbit, embarks on a perilous journey with a group of dwarves to reclaim their home from the dragon Smaug. Along the way, he encounters trolls, goblins, and elves, while discovering his own bravery."
+    },
+    "35": {
+        "title": "The Outsiders",
+        "author": "S.E. Hinton",
+        "rating": 4.0,
+        "genres": ["Fiction", "Classics", "Young Adult", "Literature", "Family", "Coming-of-Age"],
+        "description": "The Outsiders tells the story of two rival teenage gangs, the Greasers and the Socs, and the struggles they face in a divided society. It explores themes of friendship, identity, and social inequality."
+    },
+    "36": {
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "rating": 4.2,
+        "genres": ["Crime", "Mystery", "Thriller", "Fiction", "Suspense", "Detective"],
+        "description": "Journalist Mikael Blomkvist teams up with the mysterious and brilliant hacker Lisbeth Salander to investigate the disappearance of a young woman from a powerful family. The investigation uncovers dark secrets and dangers."
+    },
+    "37": {
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "rating": 4.5,
+        "genres": ["Science Fiction", "Adventure", "Thriller", "Space", "Survival", "Fiction"],
+        "description": "Astronaut Mark Watney is stranded on Mars after a mission goes awry. Using his knowledge of science, he must find a way to survive while trying to communicate with NASA back on Earth."
+    },
+    "38": {
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "rating": 4.1,
+        "genres": ["Dystopian", "Science Fiction", "Feminism", "Literature", "Political Fiction"],
+        "description": "In a totalitarian society, women’s rights have been stripped away. Offred, a woman forced into reproductive servitude, struggles to maintain her humanity while defying the oppressive regime."
+    },
+    "39": {
+        "title": "The Chronicles of Narnia: Prince Caspian",
+        "author": "C.S. Lewis",
+        "rating": 4.4,
+        "genres": ["Fantasy", "Adventure", "Children's Literature", "Fiction", "Magic"],
+        "description": "The Pevensie siblings return to Narnia to find it under the rule of the evil Telmarines. They join forces with Prince Caspian to restore Narnia's rightful king and defeat the usurpers."
+    },
+    "40": {
+        "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
+        "rating": 4.0,
+        "genres": ["Science Fiction", "War", "Literature", "Satire", "Anti-War", "Philosophy"],
+        "description": "Billy Pilgrim, a soldier who survives the bombing of Dresden, becomes 'unstuck in time,' experiencing events of his life out of sequence. Vonnegut's novel is a satirical commentary on the absurdities of war."
+    },
+    "41": {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "rating": 4.0,
+        "genres": ["Dystopian", "Science Fiction", "Philosophy", "Literature", "Satire", "Political Fiction"],
+        "description": "In a world dominated by technology, genetic engineering, and a rigid caste system, individuals are conditioned to conform. Bernard Marx, a discontented citizen, begins questioning the nature of this seemingly perfect society."
+    },
+    "42": {
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "rating": 4.3,
+        "genres": ["Gothic", "Classics", "Romance", "Literature", "Psychological Fiction"],
+        "description": "The novel tells the tragic love story of Heathcliff and Catherine Earnshaw, whose obsessive and destructive passion leads to pain and revenge across generations."
+    },
+    "43": {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "rating": 4.1,
+        "genres": ["Classics", "Literature", "Fiction", "Historical Fiction", "Romance", "Tragedy"],
+        "description": "Set in the Jazz Age, the novel follows Jay Gatsby's obsessive pursuit of the elusive Daisy Buchanan. It critiques the excesses of wealth and explores themes of love, class, and the American Dream."
+    },
+    "44": {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "rating": 3.9,
+        "genres": ["Gothic", "Classics", "Literature", "Psychological Fiction", "Drama"],
+        "description": "Dorian Gray, a handsome young man, remains eternally youthful while his portrait ages, reflecting the moral decay of his character. Wilde critiques vanity and the pursuit of beauty at all costs."
+    },
+    "45": {
+        "title": "The Poisonwood Bible",
+        "author": "Barbara Kingsolver",
+        "rating": 4.3,
+        "genres": ["Historical Fiction", "Literature", "Family", "Drama", "Cultural Fiction"],
+        "description": "The Price family moves to the Congo in 1959, where father Nathan, a missionary, seeks to convert the locals. His rigid, domineering ways lead to tragedy for his family, as they struggle to survive and adapt to their new surroundings."
+    },
+    "46": {
+        "title": "The Secret History",
+        "author": "Donna Tartt",
+        "rating": 4.2,
+        "genres": ["Crime", "Mystery", "Literature", "Psychological Thriller", "Fiction"],
+        "description": "A group of elite college students commit a murder that sets off a series of tragic events. The novel delves into themes of guilt, beauty, and intellectualism, set against a hauntingly atmospheric backdrop."
+    },
+    "47": {
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "rating": 4.3,
+        "genres": ["Fiction", "Historical Fiction", "Drama", "Family", "War"],
+        "description": "In a story of betrayal and redemption, Amir, a young boy from Kabul, struggles to come to terms with his past, particularly his failure to protect his childhood friend Hassan."
+    },
+    "48": {
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "rating": 4.0,
+        "genres": ["Post-apocalyptic", "Fiction", "Drama", "Survival", "Literature"],
+        "description": "A father and son journey through a bleak, desolate America following an unspecified catastrophe. As they struggle to survive, they find hope and love in each other amidst the dire circumstances."
+    },
+    "49": {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "rating": 4.3,
+        "genres": ["Dystopian", "Science Fiction", "Adventure", "Fiction", "Young Adult", "Political Fiction"],
+        "description": "Katniss Everdeen enters a deadly televised competition where children fight for survival. The book critiques the spectacle of violence, the cost of rebellion, and the exploitation of the powerless."
+    },
+    "50": {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "rating": 4.5,
+        "genres": ["Horror", "Psychological Fiction", "Thriller", "Supernatural", "Fiction"],
+        "description": "Jack Torrance, a struggling writer, accepts a position as the winter caretaker of the Overlook Hotel, where he gradually loses his sanity due to the supernatural forces haunting the hotel."
+    },
+    "51": {
+        "title": "The Art of War",
+        "author": "Sun Tzu",
+        "rating": 4.6,
+        "genres": ["Philosophy", "Military", "Self-help", "Non-fiction", "Strategy"],
+        "description": "An ancient Chinese text on military strategy and tactics, The Art of War has been applied to various fields, including leadership, business, and personal development."
+    },
+    "52": {
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel García Márquez",
+        "rating": 4.2,
+        "genres": ["Magic Realism", "Literature", "Fiction", "Family Saga", "Historical Fiction"],
+        "description": "A multi-generational tale of the Buendía family in the fictional town of Macondo, this novel blends the fantastical and the real, exploring themes of solitude, love, and fate."
+    },
+    "53": {
+        "title": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "rating": 4.1,
+        "genres": ["Psychological Thriller", "Crime", "Fiction", "Suspense", "Mystery"],
+        "description": "Rachel, an alcoholic woman, becomes obsessed with a couple she watches from the train each day. When the woman goes missing, Rachel is drawn into the investigation, leading to twists and revelations."
+    },
+    "54": {
+        "title": "The Giver",
+        "author": "Lois Lowry",
+        "rating": 4.4,
+        "genres": ["Dystopian", "Young Adult", "Science Fiction", "Literature", "Fiction"],
+        "description": "In a society where emotions and choices are controlled, Jonas, a young boy, is selected to receive memories of the past. He soon learns the truth about his society and the cost of living without freedom."
+    },
+    "55": {
+        "title": "The Maze Runner",
+        "author": "James Dashner",
+        "rating": 4.0,
+        "genres": ["Dystopian", "Science Fiction", "Adventure", "Young Adult", "Thriller"],
+        "description": "Thomas wakes up in a maze with no memory of his past. Along with other 'Gladers,' he must find a way to escape, discovering dark secrets and conspiracies behind the maze's existence."
+    },
+    "56": {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "rating": 3.8,
+        "genres": ["Classics", "Fiction", "Psychological Fiction", "Young Adult", "Literature"],
+        "description": "Holden Caulfield, a disenchanted teenager, narrates his time wandering New York City after being expelled from his prep school, exploring themes of alienation, innocence, and loss."
+    },
+    "57": {
+        "title": "The Bell Jar",
+        "author": "Sylvia Plath",
+        "rating": 4.0,
+        "genres": ["Fiction", "Literature", "Mental Health", "Classics", "Autobiography"],
+        "description": "The semi-autobiographical novel follows Esther Greenwood, a young woman who struggles with mental illness, reflecting on the pressures of societal expectations and the loss of identity."
+    },
+    "58": {
+        "title": "The Hunger Games: Catching Fire",
+        "author": "Suzanne Collins",
+        "rating": 4.4,
+        "genres": ["Dystopian", "Young Adult", "Adventure", "Fiction", "Science Fiction"],
+        "description": "The second book in the series follows Katniss Everdeen as she becomes the face of rebellion in a dystopian world, participating in a new deadly Hunger Games to defy the oppressive Capitol."
+    },
+    "59": {
+        "title": "Shantaram",
+        "author": "Gregory David Roberts",
+        "rating": 4.2,
+        "genres": ["Adventure", "Fiction", "Crime", "Historical Fiction", "Philosophy"],
+        "description": "An Australian fugitive escapes to Bombay, where he gets entangled in the city's underworld. This epic novel blends action, romance, and philosophy in the backdrop of a vibrant city."
+    },
+    "60": {
+        "title": "The Time Traveler's Wife",
+        "author": "Audrey Niffenegger",
+        "rating": 4.3,
+        "genres": ["Science Fiction", "Romance", "Fiction", "Fantasy", "Time Travel"],
+        "description": "Henry DeTamble involuntarily time travels, causing a strain on his relationship with Clare Abshire. Their love story spans across time, exploring fate, loss, and the passage of time."
+    },
+    "61": {
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "rating": 4.4,
+        "genres": ["Post-apocalyptic", "Fiction", "Survival", "Literature", "Drama"],
+        "description": "A father and his son navigate a desolate America after an unspecified disaster, struggling for survival in a bleak world. Despite the bleak setting, their bond offers a glimpse of hope."
+    },
+    "62": {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "rating": 4.6,
+        "genres": ["Classics", "Romance", "Literature", "Fiction", "Historical Fiction"],
+        "description": "Elizabeth Bennet and Mr. Darcy navigate the complexities of love, family, and social expectations in early 19th-century England. Austen's wit and critique of societal norms shine through in this beloved classic."
+    },
+    "63": {
+        "title": "Murder on the Orient Express",
+        "author": "Agatha Christie",
+        "rating": 4.5,
+        "genres": ["Crime", "Mystery", "Thriller", "Detective", "Fiction"],
+        "description": "Hercule Poirot, the famous detective, investigates a murder aboard the luxurious Orient Express. The twists and turns in the plot make it one of Christie's most celebrated works."
+    },
+    "64": {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "rating": 4.8,
+        "genres": ["Science Fiction", "Adventure", "Epic", "Fantasy", "Political Fiction"],
+        "description": "Set on the desert planet Arrakis, the novel follows Paul Atreides as he navigates political intrigue and the control of the valuable spice melange, which is key to the survival of the galaxy."
+    },
+    "65": {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "rating": 4.2,
+        "genres": ["Adventure", "Philosophy", "Fiction", "Self-help", "Motivational"],
+        "description": "Santiago, a shepherd, sets off on a journey to find a treasure, discovering profound truths about life, destiny, and the importance of following one's dreams."
+    },
+    "66": {
+        "title": "Gone with the Wind",
+        "author": "Margaret Mitchell",
+        "rating": 4.3,
+        "genres": ["Historical Fiction", "Romance", "Classics", "Drama"],
+        "description": "Scarlett O'Hara navigates life and love during the Civil War and Reconstruction era. Her struggles with passion, survival, and pride make this a sweeping American classic."
+    },
+    "67": {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "rating": 3.9,
+        "genres": ["Classics", "Gothic", "Fiction", "Philosophy"],
+        "description": "Dorian Gray makes a wish to remain youthful forever, while his portrait bears the toll of his decadent and corrupt life. Wilde's novel explores beauty, morality, and the consequences of vanity."
+    },
+    "68": {
+        "title": "The Devil in the White City",
+        "author": "Erik Larson",
+        "rating": 4.1,
+        "genres": ["Non-fiction", "History", "True Crime", "Biography"],
+        "description": "This gripping true crime narrative intertwines the story of the 1893 Chicago World's Fair with that of H.H. Holmes, one of America's first serial killers, highlighting the dark side of American progress."
+    },
+    "69": {
+        "title": "A Song of Ice and Fire: A Game of Thrones",
+        "author": "George R.R. Martin",
+        "rating": 4.5,
+        "genres": ["Fantasy", "Epic", "Adventure", "Fiction", "Political Fiction"],
+        "description": "Noble families fight for control of the Iron Throne in the Seven Kingdoms of Westeros, amidst political intrigue, betrayal, and the looming threat of winter and dragons."
+    },
+    "70": {
+        "title": "The Giver",
+        "author": "Lois Lowry",
+        "rating": 4.3,
+        "genres": ["Young Adult", "Dystopian", "Science Fiction", "Literature"],
+        "description": "Jonas lives in a world where emotions and memories are controlled. As he begins to receive memories of the past, he learns the dark truths about his society and his own potential."
+    },
+    "71": {
+        "title": "The Outsiders",
+        "author": "S.E. Hinton",
+        "rating": 4.0,
+        "genres": ["Fiction", "Young Adult", "Classics", "Literature"],
+        "description": "A story about the rivalry between two groups of teens, the Greasers and the Socs. The novel deals with themes of social class, loyalty, and the struggles of adolescence."
+    },
+    "72": {
+        "title": "The Maze Runner",
+        "author": "James Dashner",
+        "rating": 3.9,
+        "genres": ["Dystopian", "Science Fiction", "Young Adult", "Adventure"],
+        "description": "Thomas wakes up in a maze with no memory and joins other kids trying to escape. The story explores themes of survival, trust, and the mysteries of the world outside."
+    },
+    "73": {
+        "title": "Life of Pi",
+        "author": "Yann Martel",
+        "rating": 4.2,
+        "genres": ["Adventure", "Fiction", "Survival", "Literature", "Philosophy"],
+        "description": "Pi Patel survives a shipwreck and is left stranded on a lifeboat in the Pacific Ocean with a Bengal tiger. The novel examines faith, survival, and the power of storytelling."
+    },
+    "74": {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "rating": 4.5,
+        "genres": ["Horror", "Thriller", "Psychological Fiction"],
+        "description": "Jack Torrance and his family take a job at the isolated Overlook Hotel, where Jack slowly loses his sanity, influenced by supernatural forces. This chilling novel is one of King's best."
+    },
+    "75": {
+        "title": "The Secret History",
+        "author": "Donna Tartt",
+        "rating": 4.0,
+        "genres": ["Mystery", "Crime", "Fiction", "Psychological Thriller"],
+        "description": "A group of elite college students commits a murder, unraveling a web of secrets, betrayal, and tragedy. This novel is a dark exploration of youth, power, and guilt."
+    },
+    "76": {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "rating": 4.1,
+        "genres": ["Dystopian", "Philosophy", "Science Fiction", "Literature"],
+        "description": "In a highly controlled society, citizens are kept in line through pleasure, drugs, and conditioning. The novel critiques modern consumerism and the loss of individuality."
+    },
+    "77": {
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "rating": 4.3,
+        "genres": ["Dystopian", "Science Fiction", "Literature", "Political Fiction"],
+        "description": "In a future society where books are banned and 'firemen' burn them, Guy Montag begins to question the oppressive system that controls information and the meaning of life."
+    },
+    "78": {
+        "title": "Norwegian Wood",
+        "author": "Haruki Murakami",
+        "rating": 4.2,
+        "genres": ["Fiction", "Literature", "Romance", "Psychological Fiction"],
+        "description": "Set in 1960s Tokyo, this novel explores love, loss, and mental health as Toru Watanabe navigates the complexities of his relationships with two women."
+    },
+    "79": {
+        "title": "The Sun Also Rises",
+        "author": "Ernest Hemingway",
+        "rating": 4.1,
+        "genres": ["Classics", "Fiction", "Literature", "Historical Fiction"],
+        "description": "A group of expatriates in post-World War I Europe struggle with feelings of disillusionment, searching for meaning in their lives amidst the hedonistic atmosphere of the Lost Generation."
+    },
+    "80": {
+        "title": "The Fault in Our Stars",
+        "author": "John Green",
+        "rating": 4.5,
+        "genres": ["Romance", "Young Adult", "Fiction", "Drama", "Cancer"],
+        "description": "Hazel Grace Lancaster and Augustus Waters fall in love while battling cancer, sharing their fears, hopes, and a deep connection that transcends their illnesses."
+    },
+    "81": {
+        "title": "The Invisible Man",
+        "author": "H.G. Wells",
+        "rating": 4.0,
+        "genres": ["Science Fiction", "Classics", "Thriller", "Horror", "Literature"],
+        "description": "Griffin, a scientist, discovers the secret of invisibility, but his descent into madness and crime leads him to wreak havoc on the world around him."
+    },
+    "82": {
+        "title": "The Great Alone",
+        "author": "Kristin Hannah",
+        "rating": 4.3,
+        "genres": ["Historical Fiction", "Fiction", "Family Drama", "Adventure", "Survival"],
+        "description": "Set in the remote Alaskan wilderness, this novel follows a family as they face extreme isolation, survival, and personal struggles amidst the brutal, unforgiving environment."
+    },
+    "83": {
+        "title": "The Glass Castle",
+        "author": "Jeannette Walls",
+        "rating": 4.5,
+        "genres": ["Memoir", "Biography", "Non-fiction", "Family", "Literature"],
+        "description": "Jeannette Walls recounts her unconventional and often traumatic childhood with her eccentric, dysfunctional parents. Her story of resilience and survival is both heart-wrenching and inspiring."
+    },
+    "84": {
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "rating": 4.4,
+        "genres": ["Fiction", "Historical Fiction", "Family", "Drama", "War"],
+        "description": "Amir, a young boy from Kabul, tries to redeem himself for betraying his friend Hassan. Their intertwined fates are shaped by friendship, guilt, and the ravages of war."
+    },
+    "85": {
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "rating": 4.2,
+        "genres": ["Fantasy", "Mystery", "Romance", "Magical Realism", "Fiction"],
+        "description": "Two magicians engage in a magical competition set within a mysterious and enchanting circus that only appears at night. Their rivalry deepens as they fall in love, risking their lives and the fate of the circus."
+    },
+    "86": {
+        "title": "The Death of Mrs. Westaway",
+        "author": "Ruth Ware",
+        "rating": 4.1,
+        "genres": ["Mystery", "Thriller", "Crime", "Fiction", "Suspense"],
+        "description": "Harriet Westaway receives a mysterious letter informing her of a fortune left to her by her grandmother. The catch? She has no idea who this grandmother is. She soon finds herself tangled in a deadly family mystery."
+    },
+    "87": {
+        "title": "Big Little Lies",
+        "author": "Liane Moriarty",
+        "rating": 4.3,
+        "genres": ["Fiction", "Mystery", "Thriller", "Domestic Drama", "Psychological Fiction"],
+        "description": "Set in a tight-knit community, three women become entangled in a web of lies, secrets, and murder. The novel explores the complexities of friendship, motherhood, and the dangerous side of suburbia."
+    },
+    "88": {
+        "title": "The Shadow of the Wind",
+        "author": "Carlos Ruiz Zafón",
+        "rating": 4.5,
+        "genres": ["Mystery", "Literary Fiction", "Historical Fiction", "Thriller", "Romance"],
+        "description": "In post-World War II Barcelona, a young boy named Daniel discovers a forgotten book by a mysterious author. As he delves into the author's life, he uncovers secrets that lead to a web of intrigue, betrayal, and danger."
+    },
+    "89": {
+        "title": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "rating": 3.9,
+        "genres": ["Psychological Thriller", "Crime", "Mystery", "Suspense", "Fiction"],
+        "description": "Rachel, an alcoholic woman, watches a seemingly perfect couple from her train ride every day. When the woman goes missing, Rachel becomes embroiled in a dangerous investigation that uncovers dark truths."
+    },
+    "90": {
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "rating": 4.2,
+        "genres": ["Mystery", "Crime", "Thriller", "Suspense", "Fiction"],
+        "description": "Journalist Mikael Blomkvist teams up with the brilliant hacker Lisbeth Salander to investigate the long-unsolved disappearance of a young woman from a powerful family."
+    },
+    "91": {
+        "title": "American Dirt",
+        "author": "Jeanine Cummins",
+        "rating": 4.0,
+        "genres": ["Fiction", "Literature", "Immigration", "Drama", "Social Issues"],
+        "description": "Lydia and her son flee the violence of cartel-dominated Mexico, embarking on a perilous journey to cross the border into the United States. The novel explores the human cost of immigration and survival."
+    },
+    "92": {
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "rating": 4.4,
+        "genres": ["Fantasy", "Mythology", "Fiction", "Historical Fiction", "Classics"],
+        "description": "A retelling of the myth of Circe, the witch from Homer’s *Odyssey*, this novel explores her transformation from a powerless daughter of gods into a powerful and independent woman."
+    },
+    "93": {
+        "title": "The Underground Railroad",
+        "author": "Colson Whitehead",
+        "rating": 4.5,
+        "genres": ["Historical Fiction", "Literature", "Slavery", "Adventure", "Fantasy"],
+        "description": "Cora, a young woman enslaved in Georgia, escapes to freedom via the Underground Railroad, which, in Whitehead's novel, is an actual railway. Her journey is a profound exploration of resistance, freedom, and survival."
+    },
+    "94": {
+        "title": "The Lovely Bones",
+        "author": "Alice Sebold",
+        "rating": 4.0,
+        "genres": ["Fiction", "Literature", "Thriller", "Fantasy", "Suspense"],
+        "description": "Susie Salmon, a young girl, is murdered and watches from her afterlife as her family copes with the loss and her killer remains unidentified. A haunting story of grief, family, and redemption."
+    },
+    "95": {
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "rating": 4.3,
+        "genres": ["Psychological Thriller", "Mystery", "Fiction", "Crime"],
+        "description": "A celebrated artist, Alicia Berenson, shoots her husband in the face and then becomes mute. A psychotherapist becomes obsessed with uncovering the truth behind her silence, leading to a shocking twist."
+    },
+    "96": {
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "rating": 4.6,
+        "genres": ["Historical Fiction", "Literature", "Young Adult", "War", "Family"],
+        "description": "Set in Nazi Germany, this novel follows Liesel, a young girl who steals books, as she witnesses the horrors of war, the power of words, and the bonds of family and friendship."
+    },
+    "97": {
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "rating": 4.7,
+        "genres": ["Non-fiction", "History", "Philosophy", "Science", "Anthropology"],
+        "description": "Harari traces the history of humankind from the Stone Age to the present, exploring how biology, culture, and history have shaped our world and society."
+    },
+    "98": {
+        "title": "Educated",
+        "author": "Tara Westover",
+        "rating": 4.3,
+        "genres": ["Memoir", "Non-fiction", "Biography", "Self-Help", "Family"],
+        "description": "Tara Westover recounts her journey from growing up in a strict, survivalist family in rural Idaho to pursuing education, eventually earning a Ph.D. at Cambridge University."
+    },
+    "99": {
+        "title": "The Ocean at the End of the Lane",
+        "author": "Neil Gaiman",
+        "rating": 4.2,
+        "genres": ["Fantasy", "Magic", "Literature", "Fiction", "Coming-of-Age"],
+        "description": "A man returns to his hometown and recalls the extraordinary events of his childhood, where he befriends a girl with supernatural powers and battles dark forces that threaten his world."
+    },
 
+ "100": {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "rating": 4.7,
+        "genres": ["Fantasy", "Adventure", "Classics"],
+        "description": "Bilbo Baggins, a hobbit, is thrust into an adventure with a group of dwarves and the wizard Gandalf, on a quest to reclaim the treasure guarded by the fearsome dragon Smaug."
+},
+    "101": {
+        "title": "The Outsider",
+        "author": "Stephen King",
+        "rating": 4.1,
+        "genres": ["Mystery", "Horror", "Thriller", "Crime", "Suspense"],
+        "description": "A brutal murder of an 11-year-old boy points to a local teacher, Terry Maitland, as the prime suspect. But as detective Ralph Anderson investigates further, eerie supernatural elements emerge."
+    },
+    "102": {
+        "title": "The Night Watchman",
+        "author": "Louise Erdrich",
+        "rating": 4.3,
+        "genres": ["Historical Fiction", "Literature", "Native American", "Family Drama", "Political Fiction"],
+        "description": "Set in the 1950s, this novel tells the story of a Native American man, Thomas Wazhashk, who works as a night watchman and fights against a government proposal that would strip his people of their land."
+    },
+    "103": {
+        "title": "Before We Were Strangers",
+        "author": "Renée Carlino",
+        "rating": 4.2,
+        "genres": ["Romance", "Contemporary Fiction", "Love Story", "Literature"],
+        "description": "This heartfelt novel tells the story of two former college sweethearts, Matt and Grace, who reconnect years later and struggle with lost love, regret, and second chances."
+    },
+    "104": {
+        "title": "The Paper Palace",
+        "author": "Miranda Cowley Heller",
+        "rating": 4.0,
+        "genres": ["Fiction", "Contemporary Fiction", "Family Drama", "Romance"],
+        "description": "Set at a summer retreat in Cape Cod, this novel reveals long-hidden family secrets when Elle, married with children, faces a life-changing decision between two men."
+    },
+    "105": {
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "author": "Mark Manson",
+        "rating": 4.4,
+        "genres": ["Self-help", "Non-fiction", "Philosophy", "Motivational"],
+        "description": "A brutally honest guide to living a better life by embracing life's challenges and focusing on the things that truly matter, rather than chasing constant positivity."
+    },
+    "106": {
+        "title": "The Family Upstairs",
+        "author": "Lisa Jewell",
+        "rating": 4.2,
+        "genres": ["Thriller", "Mystery", "Fiction", "Crime"],
+        "description": "Three families are linked by a dark secret in this gripping thriller. Libby Jones, a 25-year-old woman, inherits a mansion, and her investigation into her inheritance uncovers a tragic history."
+    },
+    "107": {
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "rating": 4.3,
+        "genres": ["Fantasy", "Mythology", "Literary Fiction", "Fiction", "Historical Fiction"],
+        "description": "A reimagining of the Greek myth of Circe, this novel follows the witch who transformed Odysseus's men into pigs, telling her own story of power, love, exile, and self-discovery."
+    },
+    "108": {
+        "title": "The Tattooist of Auschwitz",
+        "author": "Heather Morris",
+        "rating": 4.0,
+        "genres": ["Historical Fiction", "War", "World War II", "Romance"],
+        "description": "Based on the true story of Lale Sokolov, a Jewish man who falls in love with a fellow prisoner in Auschwitz and becomes the tattooist of the camp, marking the numbers on his fellow prisoners."
+    },
+    "109": {
+        "title": "The Rosie Project",
+        "author": "Graeme Simsion",
+        "rating": 4.1,
+        "genres": ["Romance", "Comedy", "Contemporary Fiction", "Literature"],
+        "description": "Don Tillman, a brilliant but socially awkward geneticist, embarks on a quest to find the perfect wife using a scientific approach, only to have his plans disrupted by Rosie, an unpredictable woman."
+    },
+    "110": {
+        "title": "The Silent Corner",
+        "author": "Dean Koontz",
+        "rating": 4.0,
+        "genres": ["Thriller", "Mystery", "Suspense", "Fiction"],
+        "description": "Former FBI agent Jane Hawk investigates a series of mysterious suicides that seem to have a larger, sinister plot behind them. Her quest for answers leads her into a web of conspiracy and danger."
+    },
+    "111": {
+        "title": "The Light We Lost",
+        "author": "Jill Santopolo",
+        "rating": 4.3,
+        "genres": ["Romance", "Contemporary Fiction", "Drama", "Love Story"],
+        "description": "Lucy and Gabe fall in love during the tragic events of 9/11, and their relationship is tested by time, distance, and the choices they make. A beautiful exploration of love, fate, and regret."
+    },
+    "112": {
+        "title": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "rating": 4.5,
+        "genres": ["Mystery", "Fiction", "Coming-of-Age", "Romance", "Nature"],
+        "description": "Kya Clark, the mysterious 'Marsh Girl' of Barkley Cove, is accused of murdering a local man. As the investigation unfolds, Kya's story of isolation and survival in the wild comes to light."
+    },
+    "113": {
+        "title": "The Seven Husbands of Evelyn Hugo",
+        "author": "Taylor Jenkins Reid",
+        "rating": 4.6,
+        "genres": ["Historical Fiction", "Romance", "Fiction", "Drama", "Celebrity"],
+        "description": "Evelyn Hugo, an aging Hollywood icon, tells her life story to a journalist, revealing her seven marriages and the dark secrets behind her rise to fame."
+    },
+    "114": {
+        "title": "The Henna Artist",
+        "author": "Alka Joshi",
+        "rating": 4.2,
+        "genres": ["Historical Fiction", "Fiction", "Family Drama", "Romance"],
+        "description": "In post-partition India, Lakshmi, a talented henna artist, navigates societal pressures, family secrets, and her own ambitions, all while trying to achieve independence in a patriarchal world."
+    },
+    "115": {
+        "title": "The Girl Who Lived",
+        "author": "Christopher Greyson",
+        "rating": 4.0,
+        "genres": ["Thriller", "Mystery", "Crime", "Suspense"],
+        "description": "Twenty years after surviving a brutal massacre that claimed her family, Faith Winters is haunted by the traumatic event. As new clues emerge, she embarks on a quest for justice."
+    },
+    "116": {
+        "title": "A Little Life",
+        "author": "Hanya Yanagihara",
+        "rating": 4.4,
+        "genres": ["Literature", "Fiction", "Drama", "Contemporary Fiction"],
+        "description": "The story follows four friends in New York City over several decades, focusing on the life of Jude, whose traumatic past slowly unfolds as he deals with deep psychological and emotional scars."
+    },
+    "117": {
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "rating": 4.7,
+        "genres": ["Historical Fiction", "Literature", "Young Adult", "War", "Family"],
+        "description": "During World War II, Liesel steals books to share with others, while the story is narrated by Death itself. This poignant tale of love, friendship, and loss has become a modern classic."
+    },
+    "118": {
+        "title": "The Woman in the Window",
+        "author": "A.J. Finn",
+        "rating": 3.8,
+        "genres": ["Psychological Thriller", "Crime", "Suspense", "Mystery"],
+        "description": "An agoraphobic woman spies on her neighbors from her window and becomes convinced that she has witnessed a crime. But is she truly witnessing a murder, or is her mind playing tricks on her?"
+    },
+    "119": {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "rating": 4.5,
+        "genres": ["Dystopian", "Young Adult", "Science Fiction", "Adventure", "Thriller"],
+        "description": "In a future dystopian society, Katniss Everdeen volunteers to take her sister's place in the annual Hunger Games, a televised fight to the death. She must navigate alliances, survival, and rebellion."
+    },
+    "120": {
+        "title": "All the Light We Cannot See",
+        "author": "Anthony Doerr",
+        "rating": 4.6,
+        "genres": ["Historical Fiction", "World War II", "Literature", "Family Drama"],
+        "description": "Set during World War II, the novel tells the story of a blind French girl and a German soldier, whose fates intertwine in the occupied city of Saint-Malo as the war unfolds."
+    },
+    "121": {
+        "title": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "rating": 4.1,
+        "genres": ["Psychological Thriller", "Mystery", "Fiction", "Crime", "Suspense"],
+        "description": "Rachel, a woman who commutes daily on the same train, becomes involved in a missing person case after witnessing something suspicious. As secrets unfold, her own past begins to unravel."
+    },
+    "122": {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "rating": 4.6,
+        "genres": ["Fiction", "Philosophy", "Adventure", "Spirituality"],
+        "description": "Santiago, a shepherd, embarks on a journey to find treasure, only to discover that the real treasure lies within himself. A profound story of self-discovery and following one's dreams."
+    },
+    "123": {
+        "title": "The Help",
+        "author": "Kathryn Stockett",
+        "rating": 4.3,
+        "genres": ["Historical Fiction", "Social Issues", "Drama", "Literature"],
+        "description": "Set in 1960s Mississippi, the novel explores the lives of three women—two African American maids and a young white journalist—who confront the social and racial injustices of the time."
+    },
+    "124": {
+        "title": "Normal People",
+        "author": "Sally Rooney",
+        "rating": 4.2,
+        "genres": ["Literary Fiction", "Romance", "Contemporary Fiction", "Drama"],
+        "description": "Connell and Marianne are two teenagers from different social classes in Ireland, whose complex relationship evolves over the years, navigating love, friendship, and personal growth."
+    },
+    "125": {
+        "title": "An American Marriage",
+        "author": "Tayari Jones",
+        "rating": 4.4,
+        "genres": ["Fiction", "Contemporary", "Drama", "Romance", "Social Issues"],
+        "description": "Celestial and Roy's marriage is torn apart when Roy is wrongfully imprisoned for a crime he didn’t commit. The novel explores race, love, and the effects of injustice on personal lives."
+    },
+    "126": {
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "rating": 4.5,
+        "genres": ["Science Fiction", "Adventure", "Thriller", "Survival"],
+        "description": "Astronaut Mark Watney is stranded on Mars after a failed mission. Using his knowledge of science, he must survive alone on the Red Planet and find a way to communicate with Earth."
+    },
+    "127": {
+        "title": "The 5th Wave",
+        "author": "Rick Yancey",
+        "rating": 4.0,
+        "genres": ["Dystopian", "Science Fiction", "Young Adult", "Adventure"],
+        "description": "In a world devastated by alien invasions, Cassie Sullivan is trying to survive the fifth wave, the deadliest phase of an attack that has wiped out most of humanity."
+    },
+    "128": {
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "rating": 4.3,
+        "genres": ["Post-apocalyptic", "Fiction", "Drama", "Survival", "Literature"],
+        "description": "A father and son journey through a post-apocalyptic landscape, struggling to survive amidst the ruins of civilization, clinging to love and hope in an otherwise bleak world."
+    },
+    "129": {
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "rating": 4.4,
+        "genres": ["Fantasy", "Mystery", "Magical Realism", "Romance"],
+        "description": "In a magical competition between two young illusionists, a mysterious circus becomes the battleground. The novel is filled with enchanting details, love, and a sense of wonder."
+    },
+    "130": {
+        "title": "Educated",
+        "author": "Tara Westover",
+        "rating": 4.7,
+        "genres": ["Memoir", "Biography", "Non-fiction", "Family", "Self-discovery"],
+        "description": "Tara Westover recounts her story of growing up in a survivalist family in rural Idaho, her struggle for education, and her eventual escape from her controlling family to pursue a Ph.D. at Cambridge."
+    },
+    "131": {
+        "title": "The Invisible Life of Addie LaRue",
+        "author": "V.E. Schwab",
+        "rating": 4.3,
+        "genres": ["Fantasy", "Historical Fiction", "Romance", "Adventure"],
+        "description": "Addie LaRue makes a deal to live forever, but the cost is that no one will ever remember her. For centuries, she lives in anonymity until one day, a man remembers her."
+    },
+    "132": {
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "rating": 4.2,
+        "genres": ["Psychological Thriller", "Mystery", "Crime", "Suspense"],
+        "description": "A celebrated artist, Alicia Berenson, shoots her husband in the face and then becomes mute. A psychotherapist becomes obsessed with her case, seeking the truth behind her silence."
+    },
+    "133": {
+        "title": "The Song of Achilles",
+        "author": "Madeline Miller",
+        "rating": 4.5,
+        "genres": ["Fantasy", "Historical Fiction", "Mythology", "Romance"],
+        "description": "A reimagining of the Iliad and the story of Achilles and Patroclus, this novel explores their deep, tragic love and the costs of war and destiny."
+    },
+    "134": {
+        "title": "A Man Called Ove",
+        "author": "Fredrik Backman",
+        "rating": 4.4,
+        "genres": ["Fiction", "Literature", "Humor", "Contemporary Fiction"],
+        "description": "Ove is a grumpy old man with a strict routine, but his life is upended when a young family moves in next door. The novel is a heartwarming tale of love, loss, and unexpected friendships."
+    },
+    "135": {
+        "title": "The Girl with the Louding Voice",
+        "author": "Abi Daré",
+        "rating": 4.3,
+        "genres": ["Fiction", "Literary Fiction", "Contemporary", "Social Issues"],
+        "description": "Adunni, a 14-year-old Nigerian girl, dreams of getting an education and finding her voice. Despite facing severe hardship and oppression, she is determined to make her life her own."
+    },
+    "136": {
+        "title": "All the Light We Cannot See",
+        "author": "Anthony Doerr",
+        "rating": 4.6,
+        "genres": ["Historical Fiction", "War", "Literature", "Family Drama"],
+        "description": "During World War II, two young people—Marie-Laure, a blind girl in Paris, and Werner, a German soldier—navigate the war’s devastation, their lives forever intertwined by fate."
+    },
+    "137": {
+        "title": "The Henna Artist",
+        "author": "Alka Joshi",
+        "rating": 4.2,
+        "genres": ["Historical Fiction", "Literature", "Romance", "Family Drama"],
+        "description": "In 1950s India, Lakshmi is a henna artist who finds herself navigating the complexities of a patriarchal society. As she pursues independence, she uncovers family secrets and struggles with her past."
+    },
+    "138": {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "rating": 4.5,
+        "genres": ["Horror", "Thriller", "Psychological Fiction", "Suspense"],
+        "description": "Jack Torrance, a writer and recovering alcoholic, takes a job as the winter caretaker of the isolated Overlook Hotel. As the winter progresses, he descends into madness, and his family is trapped with him."
+    },
+    "139": {
+        "title": "The 100-Year-Old Man Who Climbed Out the Window and Disappeared",
+        "author": "Jonas Jonasson",
+        "rating": 4.0,
+        "genres": ["Humor", "Fiction", "Adventure", "Contemporary"],
+        "description": "Allan Karlsson, at the age of 100, escapes his nursing home and embarks on an absurd adventure, which leads to a bag full of money, gangsters, and an unpredictable journey."
+    },
+    "140": {
+        "title": "The Call of the Wild",
+        "author": "Jack London",
+        "rating": 4.3,
+        "genres": ["Adventure", "Classics", "Literature", "Animal Fiction"],
+        "description": "Buck, a domesticated dog, is stolen and sold into the harsh life of an Alaskan sled dog. As he becomes wild again, he learns the true meaning of survival and loyalty."
+    },
+    "141": {
+        "title": "The Shadow of the Wind",
+        "author": "Carlos Ruiz Zafón",
+        "rating": 4.4,
+        "genres": ["Historical Fiction", "Mystery", "Literature", "Romance"],
+        "description": "In post-World War II Barcelona, a young boy named Daniel discovers a mysterious book by an unknown author, leading him into a labyrinth of intrigue, love, and tragedy."
+    },
+    "142": {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "rating": 4.0,
+        "genres": ["Classic", "Literary Fiction", "Coming-of-age"],
+        "description": "Holden Caulfield, a disenchanted teenager, recounts his experiences in New York City after being expelled from prep school. The novel explores themes of alienation, loss, and identity."
+    },
+    "143": {
+        "title": "The Nightingale",
+        "author": "Kristin Hannah",
+        "rating": 4.6,
+        "genres": ["Historical Fiction", "War", "Drama", "Romance"],
+        "description": "Set during World War II, the story follows two sisters in France as they resist the German occupation in their own ways, exploring the horrors of war and the strength of women."
+    },
+    "144": {
+        "title": "Big Little Lies",
+        "author": "Liane Moriarty",
+        "rating": 4.3,
+        "genres": ["Mystery", "Thriller", "Fiction", "Drama"],
+        "description": "The lives of three women—Madeline, Celeste, and Jane—intertwine in a small Australian town. Beneath their seemingly perfect lives, secrets and lies unravel, leading to a shocking murder."
+    },
+    "145": {
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "rating": 4.1,
+        "genres": ["Mystery", "Thriller", "Crime", "Suspense"],
+        "description": "Journalist Mikael Blomkvist teams up with the brilliant hacker Lisbeth Salander to solve the decades-old mystery of a missing girl in this gripping crime thriller."
+    },
+    "146": {
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "rating": 4.5,
+        "genres": ["Non-fiction", "History", "Science", "Philosophy"],
+        "description": "Harari explores the history of humankind, from the Stone Age to the modern era, examining the factors that have shaped humanity's development and its future."
+    },
+    "147": {
+        "title": "The Paris Library",
+        "author": "Janet Skeslien Charles",
+        "rating": 4.4,
+        "genres": ["Historical Fiction", "Literature", "War", "Romance"],
+        "description": "Set in Paris during World War II, the novel follows the story of Odile, a librarian at the American Library, as she navigates love, loss, and friendship amid the horrors of war."
+    },
+    "148": {
+        "title": "The Goldfinch",
+        "author": "Donna Tartt",
+        "rating": 4.3,
+        "genres": ["Literary Fiction", "Drama", "Coming-of-age"],
+        "description": "Theo Decker survives a terrorist bombing at a museum, and the novel follows his journey through grief, obsession, and the consequences of a single tragic event."
+    },
+    "149": {
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "rating": 4.4,
+        "genres": ["Fantasy", "Historical Fiction", "Mythology"],
+        "description": "A modern retelling of the Greek myth of Circe, focusing on her life as a powerful witch, her exile to a deserted island, and her complex relationships with gods, mortals, and monsters."
+    },
+    "150": {
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "rating": 4.7,
+        "genres": ["Historical Fiction", "Young Adult", "War", "Literature"],
+        "description": "Narrated by Death, this is the story of Liesel, a young girl living in Nazi Germany, who steals books to share with others during the horrors of World War II."
+    },
+    "151": {
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "rating": 4.3,
+        "genres": ["Fantasy", "Magical Realism", "Romance", "Mystery"],
+        "description": "The mysterious and enchanting Night Circus is a venue for a magical competition between two illusionists, set against a backdrop of whimsical settings and intricate romance."
+    },
+    "152": {
+        "title": "The Light Between Oceans",
+        "author": "M.L. Stedman",
+        "rating": 4.2,
+        "genres": ["Historical Fiction", "Romance", "Drama"],
+        "description": "A lighthouse keeper and his wife, living on a remote island, make a life-changing decision when they find a baby washed ashore, leading to moral dilemmas and tragic consequences."
+    },
+    "153": {
+        "title": "The 100-Year-Old Man Who Climbed Out the Window and Disappeared",
+        "author": "Jonas Jonasson",
+        "rating": 4.0,
+        "genres": ["Humor", "Adventure", "Contemporary Fiction"],
+        "description": "Allan Karlsson, a centenarian, escapes his nursing home and embarks on an absurd adventure, getting involved with criminals, a suitcase full of money, and a series of improbable events."
+    },
+    "154": {
+        "title": "The Woman in White",
+        "author": "Wilkie Collins",
+        "rating": 4.2,
+        "genres": ["Mystery", "Gothic", "Classics"],
+        "description": "A chilling Gothic mystery about the eerie figure of the Woman in White, and her involvement in a web of secrets, conspiracies, and shocking revelations."
+    },
+    "155": {
+        "title": "The Girl Who Lived",
+        "author": "Christopher Greyson",
+        "rating": 4.1,
+        "genres": ["Thriller", "Mystery", "Crime"],
+        "description": "Faith Winters, the sole survivor of a brutal massacre, embarks on a quest to uncover the truth about her family's death, with suspenseful twists and dark secrets."
+    },
+    "156": {
+        "title": "A Little Life",
+        "author": "Hanya Yanagihara",
+        "rating": 4.4,
+        "genres": ["Literary Fiction", "Drama", "Contemporary Fiction"],
+        "description": "The story follows four college friends as they navigate life and trauma, particularly focusing on Jude, whose painful past influences his present relationships and struggles."
+    },
+    "157": {
+        "title": "The Secret History",
+        "author": "Donna Tartt",
+        "rating": 4.2,
+        "genres": ["Thriller", "Mystery", "Literary Fiction"],
+        "description": "A group of eccentric students at an elite college become involved in a murder, which spirals out of control, leading to a dark and thrilling exploration of guilt and morality."
+    },
+    "158": {
+        "title": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "rating": 4.1,
+        "genres": ["Psychological Thriller", "Mystery", "Suspense"],
+        "description": "Rachel, a woman with a troubled past, becomes obsessed with a seemingly perfect couple she watches from her train. When the woman goes missing, Rachel becomes involved in the investigation."
+    },
+    "159": {
+        "title": "The Outsiders",
+        "author": "S.E. Hinton",
+        "rating": 4.3,
+        "genres": ["Young Adult", "Coming-of-age", "Literary Fiction"],
+        "description": "The story of Ponyboy Curtis, a teenager caught between two worlds: the wealthy Socs and the working-class Greasers. A classic novel about loyalty, friendship, and class struggles."
+    },
+    "160": {
+        "title": "Room",
+        "author": "Emma Donoghue",
+        "rating": 4.3,
+        "genres": ["Fiction", "Drama", "Thriller"],
+        "description": "A young boy and his mother are held captive in a small room for years. The novel tells their harrowing story of escape and the journey to find freedom in the outside world."
     }
 }
