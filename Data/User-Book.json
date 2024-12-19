@@ -4,6 +4,300 @@
     "bookId": "1",
     "rating": "5",
     "date": "2024-12-18"
+  },
+  {
+    "userId": "2",
+    "bookId": "12",
+    "rating": "4",
+    "date": "2021-09-20"
+  },
+  {
+    "userId": "3",
+    "bookId": "82",
+    "rating": "3",
+    "date": "2022-03-10"
+  },
+  {
+    "userId": "4",
+    "bookId": "60",
+    "rating": "5",
+    "date": "2020-12-05"
+  },
+  {
+    "userId": "5",
+    "bookId": "23",
+    "rating": "4",
+    "date": "2024-01-25"
+  },
+  {
+    "userId": "6",
+    "bookId": "101",
+    "rating": "2",
+    "date": "2021-11-17"
+  },
+  {
+    "userId": "7",
+    "bookId": "9",
+    "rating": "5",
+    "date": "2023-04-03"
+  },
+  {
+    "userId": "8",
+    "bookId": "75",
+    "rating": "3",
+    "date": "2022-02-19"
+  },
+  {
+    "userId": "9",
+    "bookId": "46",
+    "rating": "1",
+    "date": "2021-07-12"
+  },
+  {
+    "userId": "10",
+    "bookId": "58",
+    "rating": "4",
+    "date": "2020-08-30"
+  },
+  {
+    "userId": "11",
+    "bookId": "34",
+    "rating": "5",
+    "date": "2024-02-13"
+  },
+  {
+    "userId": "12",
+    "bookId": "110",
+    "rating": "4",
+    "date": "2023-09-05"
+  },
+  {
+    "userId": "13",
+    "bookId": "137",
+    "rating": "2",
+    "date": "2021-01-18"
+  },
+  {
+    "userId": "14",
+    "bookId": "98",
+    "rating": "3",
+    "date": "2020-04-22"
+  },
+  {
+    "userId": "15",
+    "bookId": "54",
+    "rating": "5",
+    "date": "2022-12-01"
+  },
+  {
+    "userId": "16",
+    "bookId": "19",
+    "rating": "4",
+    "date": "2023-05-16"
+  },
+  {
+    "userId": "17",
+    "bookId": "150",
+    "rating": "1",
+    "date": "2020-11-29"
+  },
+  {
+    "userId": "18",
+    "bookId": "118",
+    "rating": "4",
+    "date": "2021-06-22"
+  },
+  {
+    "userId": "19",
+    "bookId": "41",
+    "rating": "2",
+    "date": "2024-03-05"
+  },
+  {
+    "userId": "20",
+    "bookId": "39",
+    "rating": "5",
+    "date": "2022-07-04"
+  },
+  {
+    "userId": "21",
+    "bookId": "76",
+    "rating": "3",
+    "date": "2021-09-28"
+  },
+  {
+    "userId": "22",
+    "bookId": "33",
+    "rating": "4",
+    "date": "2023-03-15"
+  },
+  {
+    "userId": "23",
+    "bookId": "125",
+    "rating": "2",
+    "date": "2024-06-08"
+  },
+  {
+    "userId": "24",
+    "bookId": "107",
+    "rating": "5",
+    "date": "2022-11-11"
+  },
+  {
+    "userId": "25",
+    "bookId": "42",
+    "rating": "1",
+    "date": "2020-12-27"
+  },
+  {
+    "userId": "26",
+    "bookId": "82",
+    "rating": "3",
+    "date": "2023-01-18"
+  },
+  {
+    "userId": "27",
+    "bookId": "121",
+    "rating": "4",
+    "date": "2021-05-10"
+  },
+  {
+    "userId": "28",
+    "bookId": "100",
+    "rating": "5",
+    "date": "2024-07-22"
+  },
+  {
+    "userId": "29",
+    "bookId": "132",
+    "rating": "4",
+    "date": "2020-09-03"
+  },
+  {
+    "userId": "30",
+    "bookId": "53",
+    "rating": "5",
+    "date": "2023-11-25"
+  },
+  {
+    "userId": "31",
+    "bookId": "12",
+    "rating": "2",
+    "date": "2022-05-16"
+  },
+  {
+    "userId": "32",
+    "bookId": "16",
+    "rating": "4",
+    "date": "2024-02-08"
+  },
+  {
+    "userId": "33",
+    "bookId": "77",
+    "rating": "3",
+    "date": "2021-12-01"
+  },
+  {
+    "userId": "34",
+    "bookId": "120",
+    "rating": "5",
+    "date": "2020-06-25"
+  },
+  {
+    "userId": "35",
+    "bookId": "28",
+    "rating": "4",
+    "date": "2023-10-10"
+  },
+  {
+    "userId": "36",
+    "bookId": "138",
+    "rating": "5",
+    "date": "2022-08-09"
+  },
+  {
+    "userId": "37",
+    "bookId": "22",
+    "rating": "3",
+    "date": "2023-02-01"
+  },
+  {
+    "userId": "38",
+    "bookId": "81",
+    "rating": "2",
+    "date": "2020-03-16"
+  },
+  {
+    "userId": "39",
+    "bookId": "136",
+    "rating": "4",
+    "date": "2021-08-13"
+  },
+  {
+    "userId": "40",
+    "bookId": "135",
+    "rating": "1",
+    "date": "2022-09-19"
+  },
+  {
+    "userId": "41",
+    "bookId": "78",
+    "rating": "4",
+    "date": "2023-01-14"
+  },
+  {
+    "userId": "42",
+    "bookId": "74",
+    "rating": "3",
+    "date": "2020-11-12"
+  },
+  {
+    "userId": "43",
+    "bookId": "90",
+    "rating": "2",
+    "date": "2024-01-08"
+  },
+  {
+    "userId": "44",
+    "bookId": "66",
+    "rating": "5",
+    "date": "2023-05-19"
+  },
+  {
+    "userId": "45",
+    "bookId": "54",
+    "rating": "4",
+    "date": "2021-10-06"
+  },
+  {
+    "userId": "46",
+    "bookId": "93",
+    "rating": "5",
+    "date": "2022-04-25"
+  },
+  {
+    "userId": "47",
+    "bookId": "124",
+    "rating": "3",
+    "date": "2020-12-11"
+  },
+  {
+    "userId": "48",
+    "bookId": "110",
+    "rating": "2",
+    "date": "2024-02-04"
+  },
+  {
+    "userId": "49",
+    "bookId": "105",
+    "rating": "4",
+    "date": "2023-11-21"
+  },
+  {
+    "userId": "50",
+    "bookId": "51",
+    "rating": "5",
+    "date": "2022-10-29"
   }
 ]
 
