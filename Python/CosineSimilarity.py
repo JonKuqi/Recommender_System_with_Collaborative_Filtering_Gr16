@@ -1,9 +1,18 @@
 from DataFetcher import DataFetcher
-
+import re
+from collections import defaultdict
 
 class ItemBasedFilter:
 
-    #To return a dict of books and their score from 0 to 1 || 0 to 5
+    categoryImportance = {"title": 0.2,
+                          "author": 0.2,
+                          "rating": 0.2,
+                          "genres": 0.2,
+                          "description": 0.2}
+
+    #To return a dict of books and their score from  0 to 5
+
+    ## MAIN METHOD
     @staticmethod
     def getRecommendations(userId):
 
@@ -12,17 +21,14 @@ class ItemBasedFilter:
         allBooks = DataFetcher.getBooks()
         allUserBooks = DataFetcher.getUserBooks()
 
-        print(allBooks)
-        print(allUserBooks)
-
         ratedBooksIds = set()
-
+        ratedBooksRatings = {}
 
         for i in range(len(allUserBooks)):
             if allUserBooks[i]['userId'] == str(userId):
                 ratedBooksIds.add(allUserBooks[i]['bookId'])
+                ratedBooksRatings['bookId'] = allUserBooks[i]['rating']
 
-        print(ratedBooksIds)
 
         unRatedBooks = {}
         ratedBooks = {}
@@ -33,15 +39,45 @@ class ItemBasedFilter:
             else:
                 unRatedBooks[bookId] = allBooks[bookId]
 
-        print(ratedBooks)
-        print(unRatedBooks)
-
+        ItemBasedFilter.createVectorCategory(allBooks, "title")
 
 
 
     @staticmethod
-    def createVector(text1, text2):
-        pass
+    def createVectorCategory(allBooks, category):
+        matrix = ItemBasedFilter.createVectorCategoryMatrix(allBooks, category)
+        vectorMatrix = defaultdict(list)
+
+        for bookId in allBooks:
+            vector = []
+            for word in matrix:
+                vector.append(matrix[word].get(bookId, 0))
+
+            vectorMatrix[bookId] = vector
+        return vectorMatrix
+
+
+    @staticmethod
+    def createVectorCategoryMatrix(allBooks, category) -> dict:
+        returnMatrix = {}
+
+        for bookId in allBooks:
+
+            valueCategory = allBooks[bookId][category]
+            words = [word.lower() for word in re.findall(r'\w+', valueCategory)]
+
+            for word in words:
+                if word in returnMatrix:
+                    if bookId in returnMatrix[word]:
+                        returnMatrix[word][bookId] += 1
+                    else:
+                        returnMatrix[word][bookId] = 1
+                else:
+                    returnMatrix[word] = {bookId:1}
+
+
+        print(returnMatrix)
+        return returnMatrix
 
 
 
@@ -52,11 +88,7 @@ class ItemBasedFilter:
         # c = ctypes.CDLL('../CFiles/CosineSimilarity.dll')
         # c.say_hello()
 
-
-
         pass
-
-
 
 ItemBasedFilter.getRecommendations(1)
 
