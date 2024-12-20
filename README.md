@@ -15,7 +15,7 @@
 
 ## Përmbledhje e Projektit
 
-Ky sistem mundeson...
+This program is a recommendation system using collaborative filtering. The program takes as input 3 JSON files, which contain a list of users, a list of books, and a dataset describing the ratings users give to books. The program can determine which books a specific user might like the most, based on the ratings they have given to other similar books. To achieve the most accurate results, calculations are performed using two methods: Cosine Similarity and Pearson Similarity, and their average is computed.
 <br><br>
 
 ## Funksionet
@@ -29,7 +29,7 @@ Ky sistem ka keto funksione
  <br><br>
 ## Përdorimi
 Menyra e perdorimit
-- P1
+- 
 <p align="center"> Gif 1
 <a>
     <img src="" alt="Logo" height="430" align="center">
