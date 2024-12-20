@@ -10,7 +10,7 @@ class MergingItemAndUserBased:
 
         itemBasedBookList = ItemBasedFilter.getRecommendations(userId, data)
 
-        #userBasedBookList = PearsonCorrelation.predict_for_user(userId)
+        #userBasedBookList = PearsonCorrelation.predict_for_user(userId, data)
         userBasedBookList = ItemBasedFilter.getRecommendations(userId, data)
 
 
@@ -34,7 +34,7 @@ class MergingItemAndUserBased:
 
         for bookId in sortedResults:
             if bookId in allBooks:
-                finalResultOrder.append(allBooks[bookId]["title"])
+                finalResultOrder.append((allBooks[bookId]["title"], round(sortedResults[bookId], 2)))
 
         return finalResultOrder
 
@@ -47,12 +47,9 @@ class MergingItemAndUserBased:
         numberOfRatingsOfUser = len(data['user-items'])
 
 
-        alpha = 1 - (numberOfRatingsOfUser / (5 * numberOfBooks))
+        alpha = max(0, min(1, 1 - (numberOfRatingsOfUser / (5 * numberOfBooks))))
 
-        print(alpha)
         return alpha
-
-
 
 
 
@@ -60,5 +57,6 @@ class MergingItemAndUserBased:
 resultList = MergingItemAndUserBased.mergeItemAndUserBased("1", DataFetcher.getAllData(), True)
 
 for i in range(len(resultList)):
-    print(f"{i+1}. {resultList[i]}")
+    tuple = resultList[i]
+    print(f"{i+1}. {tuple[0]}   Rating: {tuple[1]}")
 
