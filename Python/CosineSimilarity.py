@@ -20,6 +20,8 @@ class ItemBasedFilter:
 
     cFunctions = ctypes.CDLL('../CFiles/CosineSimilarity.dll')
 
+
+
     ## MAIN METHOD
     @staticmethod
     def getRecommendations(userId):
@@ -37,7 +39,11 @@ class ItemBasedFilter:
         for i in range(len(allUserBooks)):
             if allUserBooks[i]['userId'] == str(userId):
                 ratedBooksIds.add(allUserBooks[i]['bookId'])
-                ratedBooksRatings[allUserBooks[i]['bookId']] = allUserBooks[i]['rating']
+                rating = float(allUserBooks[i]['rating'])
+                if math.isnan(rating):
+                    ratedBooksRatings[allUserBooks[i]['bookId']] = 0.0
+                else:
+                    ratedBooksRatings[allUserBooks[i]['bookId']] = rating
 
 
         unRatedBooks = {}
@@ -67,8 +73,7 @@ class ItemBasedFilter:
         ItemBasedFilter.filterRatedUnrated(titleCategoryMatrix, titleRated, titleUnrated, ratedBooksId)
         titleCosineSimilarityMatrix = {}
         ItemBasedFilter.sendToC(titleRated, titleUnrated, titleCosineSimilarityMatrix)
-        ItemBasedFilter.getRatingForCategory(titleCosineSimilarityMatrix, ratedBookRatings)
-        print(titleCosineSimilarityMatrix['23'])
+        titleResult = ItemBasedFilter.getRatingForCategory(titleCosineSimilarityMatrix, ratedBookRatings)
 
 
         authorRated = {}
@@ -76,25 +81,39 @@ class ItemBasedFilter:
         ItemBasedFilter.filterRatedUnrated(authorCategoryMatrix, authorRated, authorUnRated, ratedBooksId)
         authorCosineSimilarityMatrix = {}
         ItemBasedFilter.sendToC(authorRated, authorUnRated, authorCosineSimilarityMatrix)
+        authorResult = ItemBasedFilter.getRatingForCategory(authorCosineSimilarityMatrix, ratedBookRatings)
 
         genresRated = {}
         genresUnRated = {}
         ItemBasedFilter.filterRatedUnrated(genreCategoryMatrix, genresRated, genresUnRated, ratedBooksId)
         genreCosineSimilarityMatrix = {}
         ItemBasedFilter.sendToC(genresRated, genresUnRated, genreCosineSimilarityMatrix)
+        genresResult = ItemBasedFilter.getRatingForCategory(genreCosineSimilarityMatrix, ratedBookRatings)
 
         descriptionRated = {}
         descriptionUnrated = {}
         ItemBasedFilter.filterRatedUnrated(descriptionCategoryMatrix, descriptionRated, descriptionUnrated, ratedBooksId)
         descriptionCosineSimilarityMatrix = {}
         ItemBasedFilter.sendToC(descriptionRated, descriptionUnrated, descriptionCosineSimilarityMatrix)
+        descriptionResult = ItemBasedFilter.getRatingForCategory(authorCosineSimilarityMatrix, ratedBookRatings)
+
+
+
 
 
 
 
     #ratedBooksRating {bookId: 0.0-5, ...}
+
     @staticmethod
     def getRatingForCategory(categoryMatrix, ratedBooksRatings):
+
+        ItemBasedFilter.cFunctions.weighted_sum_two_arrays.argtypes = [ctypes.POINTER(ctypes.c_double),
+                                                                ctypes.POINTER(ctypes.c_double),
+                                                                ctypes.c_int]
+        ItemBasedFilter.cFunctions.weighted_sum_two_arrays.restype = ctypes.c_double
+
+
 
         unratedBookLists = {}
         for bookId in categoryMatrix:
@@ -104,10 +123,22 @@ class ItemBasedFilter:
                 else:
                     unratedBookLists[unRatedBookId] = [categoryMatrix[bookId][unRatedBookId]]
 
-        #print(unratedBookLists)
+        print("Unrated BOOKS: ",unratedBookLists)
+        print("RatedBookRatings", ratedBooksRatings)
 
+        n = len(ratedBooksRatings)
+        ratedBooksRatingsList = list(ratedBooksRatings.values())
+        pointerRatedBookRatings = (ctypes.c_double * n)(*ratedBooksRatingsList)
 
+        categoryResult = {}
 
+        for bookId in unratedBookLists:
+            normalList = unratedBookLists[bookId]
+            print("NormalList", normalList)
+            pointerList = (ctypes.c_double * n)(*normalList)
+            categoryResult[bookId] = ItemBasedFilter.cFunctions.weighted_sum_two_arrays(pointerList, pointerRatedBookRatings, n)
+
+        return categoryResult
 
 
 
