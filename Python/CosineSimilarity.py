@@ -10,16 +10,15 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 class ItemBasedFilter:
 
-    categoryImportance = {"title": 0.2,
-                          "author": 0.2,
-                          "rating": 0.2,
-                          "genres": 0.2,
-                          "description": 0.2}
+    categoryImportance = {"title": 0.25,
+                          "author": 0.25,
+                          "rating": 0.25,
+                          "genres": 0.25,
+                          "description": 0.25}
 
     #To return a dict of books and their score from  0 to 5
 
     cFunctions = ctypes.CDLL('../CFiles/CosineSimilarity.dll')
-
 
 
     ## MAIN METHOD
@@ -55,7 +54,7 @@ class ItemBasedFilter:
             else:
                 unRatedBooks[bookId] = allBooks[bookId]
 
-        ItemBasedFilter.filterAndSendToC(allBooks, ratedBooksIds, ratedBooksRatings)
+        return ItemBasedFilter.filterAndSendToC(allBooks, ratedBooksIds, ratedBooksRatings)
 
 
 
@@ -97,14 +96,61 @@ class ItemBasedFilter:
         ItemBasedFilter.sendToC(descriptionRated, descriptionUnrated, descriptionCosineSimilarityMatrix)
         descriptionResult = ItemBasedFilter.getRatingForCategory(authorCosineSimilarityMatrix, ratedBookRatings)
 
+        #Combining result into one
+        # print("Title Result:", titleResult)
+        # print(len(titleResult))
+        # print("Author Result:", authorResult)
+        # print(len(authorResult))
+        # print("Genre Result", genresResult)
+        # print(len(genresResult))
+        # print("DescriptionResult", descriptionResult)
+        # print(len(descriptionResult))
+
+        return ItemBasedFilter.combineResultsInC(titleResult, authorResult, genresResult, descriptionResult)
 
 
+    @staticmethod
+    def combineResultsInC(titleResult, authorResult, genresResult, descriptionResult):
+
+        bookIds = list(titleResult.keys())
+        titleResultList = titleResult.values()
+        authorResultList = authorResult.values()
+        genresResultList = genresResult.values()
+        descriptionResultList = descriptionResult.values()
+        size = len(titleResultList)
+
+        # C Code
+        ItemBasedFilter.cFunctions.weighted_sum.argtypes = [
+            ctypes.POINTER(ctypes.c_double), ctypes.c_double,
+            ctypes.POINTER(ctypes.c_double), ctypes.c_double,
+            ctypes.POINTER(ctypes.c_double), ctypes.c_double,
+            ctypes.POINTER(ctypes.c_double), ctypes.c_double,
+            ctypes.c_size_t,
+        ]
+        ItemBasedFilter.cFunctions.weighted_sum.restype = ctypes.POINTER(ctypes.c_double)
+
+        array1 = (ctypes.c_double * size)(*titleResultList)
+        array2 = (ctypes.c_double * size)(*authorResultList)
+        array3 = (ctypes.c_double * size)(*genresResultList)
+        array4 = (ctypes.c_double * size)(*descriptionResultList)
+
+        weight1 = ItemBasedFilter.categoryImportance["title"]
+        weight2 = ItemBasedFilter.categoryImportance["author"]
+        weight3 = ItemBasedFilter.categoryImportance["genres"]
+        weight4 = ItemBasedFilter.categoryImportance["description"]
 
 
+        result_pointer = ItemBasedFilter.cFunctions.weighted_sum(
+            array1, weight1, array2, weight2, array3, weight3, array4, weight4, size
+        )
 
+        result = [result_pointer[i] for i in range(size)]
+
+        resultMap = {bookIds[i]: result[i] for i in range(size)}
+
+        return resultMap
 
     #ratedBooksRating {bookId: 0.0-5, ...}
-
     @staticmethod
     def getRatingForCategory(categoryMatrix, ratedBooksRatings):
 
@@ -123,8 +169,8 @@ class ItemBasedFilter:
                 else:
                     unratedBookLists[unRatedBookId] = [categoryMatrix[bookId][unRatedBookId]]
 
-        print("Unrated BOOKS: ",unratedBookLists)
-        print("RatedBookRatings", ratedBooksRatings)
+        #print("Unrated BOOKS: ",unratedBookLists)
+        #print("RatedBookRatings", ratedBooksRatings)
 
         n = len(ratedBooksRatings)
         ratedBooksRatingsList = list(ratedBooksRatings.values())
@@ -134,7 +180,7 @@ class ItemBasedFilter:
 
         for bookId in unratedBookLists:
             normalList = unratedBookLists[bookId]
-            print("NormalList", normalList)
+            #print("NormalList", normalList)
             pointerList = (ctypes.c_double * n)(*normalList)
             categoryResult[bookId] = ItemBasedFilter.cFunctions.weighted_sum_two_arrays(pointerList, pointerRatedBookRatings, n)
 
@@ -306,7 +352,5 @@ class ItemBasedFilter:
 
 
 
-
-ItemBasedFilter.getRecommendations(1)
 
 

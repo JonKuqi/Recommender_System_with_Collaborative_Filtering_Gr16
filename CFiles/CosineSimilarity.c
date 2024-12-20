@@ -184,7 +184,7 @@ __declspec(dllexport) double weighted_sum_two_arrays(double *array1, double *arr
 
     // Avoid division by zero
     if (sum1_final == 0.0) {
-        printf("Warning: Denominator is zero, returning 0.0\n");
+        //printf("Warning: Denominator is zero, returning 0.0\n");
         return 0.0;  // Return zero if the denominator is zero
     }
 
@@ -192,7 +192,7 @@ __declspec(dllexport) double weighted_sum_two_arrays(double *array1, double *arr
     double result = sum_prod_final / sum1_final;
 
     // Debugging: Print the final result
-    printf("Final result: %f\n", result);
+    //printf("Final result: %f\n", result);
 
     return result;
 }
