@@ -23,12 +23,10 @@ class ItemBasedFilter:
 
     ## MAIN METHOD
     @staticmethod
-    def getRecommendations(userId):
+    def getRecommendations(userId, allData):
 
-        userId = 1 #FIX LATER
-
-        allBooks = DataFetcher.getBooks()
-        allUserBooks = DataFetcher.getUserBooks()
+        allBooks = allData['items']
+        allUserBooks = allData['user-items']
 
         ratedBooksIds = set()
 

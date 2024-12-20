@@ -29,7 +29,9 @@ EXPORT double PearsonCorrelation(double user1[], double user2[], double avg_user
     }
    
     double denominator = sqrt(sum_sq_diff_user1 * sum_sq_diff_user2);
-    
+    if(denominator <= 0){
+        return 0;
+    }
     return numerator / denominator;
 }
 
