@@ -32,3 +32,22 @@ EXPORT double PearsonCorrelation(double user1[], double user2[], double avg_user
     
     return numerator / denominator;
 }
+
+EXPORT double predict_rating(double avg_ratings[], double correlations[], double other_ratings[], int total_users,double target_user_avg) {
+    double numerator = 0.0, denominator = 0.0;
+
+    
+    for (int i = 0; i < total_users; i++) {
+        if (other_ratings[i] > 0) {  
+            double weight = correlations[i]; 
+            
+            
+            numerator += weight * (other_ratings[i] - avg_ratings[i]);
+            denominator += fabs(weight);
+        }
+    }
+
+    
+    double predicted_rating = target_user_avg + (denominator != 0 ? numerator / denominator : 0);
+    return predicted_rating;
+}
