@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <immintrin.h>
 #include <math.h>
+#include <stddef.h>    // For size_t
+#include <stdlib.h>    // For malloc
 
 
 __declspec(dllexport) double cosineSimilarity(const double *A, const double *B, int n){
@@ -68,5 +70,59 @@ __declspec(dllexport) double cosineSimilarity(const double *A, const double *B, 
 
 
     return dotProductFinal / (sqrt(sumASquaredFinal) * sqrt(sumBSquaredFinal));
+}
+
+
+
+//weighted sum function
+__declspec(dllexport) double* weighted_sum(const double *array1, double weight1,
+                            const double *array2, double weight2,
+                            const double *array3, double weight3,
+                            const double *array4, double weight4,
+                            size_t size) {
+
+    // Use 256bit AVX registers (4 doubles per register)
+    __m256d vec1, vec2, vec3, vec4, res;
+    __m256d w1 = _mm256_set1_pd(weight1);
+    __m256d w2 = _mm256_set1_pd(weight2);
+    __m256d w3 = _mm256_set1_pd(weight3);
+    __m256d w4 = _mm256_set1_pd(weight4);
+
+    // dynamically allocate memory for the result array
+    double* resultArray = (double*)malloc(size * sizeof(double));
+    if (resultArray == NULL) {
+        // if memory allocation fails
+        return NULL;
+    }
+
+    size_t i;
+    // Main loop that process 4 doubles at a time using AVX
+    for (i = 0; i + 4 <= size; i += 4) {
+        vec1 = _mm256_loadu_pd(&array1[i]);
+        vec2 = _mm256_loadu_pd(&array2[i]);
+        vec3 = _mm256_loadu_pd(&array3[i]);
+        vec4 = _mm256_loadu_pd(&array4[i]);
+
+        vec1 = _mm256_mul_pd(vec1, w1);
+        vec2 = _mm256_mul_pd(vec2, w2);
+        vec3 = _mm256_mul_pd(vec3, w3);
+        vec4 = _mm256_mul_pd(vec4, w4);
+
+        res = _mm256_add_pd(vec1, vec2);
+        res = _mm256_add_pd(res, vec3);
+        res = _mm256_add_pd(res, vec4);
+
+        _mm256_storeu_pd(&resultArray[i], res);
+    }
+
+    // handle the remaining elements, if the size is not a multiple of 4
+    for (; i < size; i++) {
+        resultArray[i] = array1[i] * weight1 +
+                         array2[i] * weight2 +
+                         array3[i] * weight3 +
+                         array4[i] * weight4;
+    }
+
+    return resultArray;  // return the dynamically allocated result array
 }
 
