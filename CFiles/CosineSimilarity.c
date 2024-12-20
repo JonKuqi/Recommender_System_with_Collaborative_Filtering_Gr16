@@ -126,3 +126,73 @@ __declspec(dllexport) double* weighted_sum(const double *array1, double weight1,
     return resultArray;  // return the dynamically allocated result array
 }
 
+
+
+
+
+__declspec(dllexport) double weighted_sum_two_arrays(double *array1, double *array2, size_t size) {
+    __m256d vec1, vec2, prod, sum1, sum2;
+    __m256d total_prod = _mm256_setzero_pd();  // Accumulator for products
+    __m256d total_sum1 = _mm256_setzero_pd();  // Accumulator for sum of array1 (denominator)
+
+    size_t i;
+
+    // Process 4 elements at a time using AVX (256-bit registers)
+    for (i = 0; i + 4 <= size; i += 4) {
+        // Load 4 elements from each array
+        vec1 = _mm256_loadu_pd(&array1[i]);
+        vec2 = _mm256_loadu_pd(&array2[i]);
+
+        // Multiply corresponding elements of array1 and array2
+        prod = _mm256_mul_pd(vec1, vec2);
+
+        // Add the products to the accumulator
+        total_prod = _mm256_add_pd(total_prod, prod);
+
+        // Add the elements of array1 to the sum accumulator (denominator)
+        total_sum1 = _mm256_add_pd(total_sum1, vec1);
+    }
+
+    // Debug: Print the values of the accumulators before storing them into arrays
+    double prod_vals[4], sum1_vals[4];
+    _mm256_storeu_pd(prod_vals, total_prod);  // Store the values of total_prod into an array
+    _mm256_storeu_pd(sum1_vals, total_sum1);  // Store the values of total_sum1 into an array
+
+
+    // Handle any remaining elements (if size is not a multiple of 4)
+    double sum_prod_scalar = 0.0, sum1_scalar = 0.0;
+    for (; i < size; i++) {
+        sum_prod_scalar += array1[i] * array2[i];
+        sum1_scalar += array1[i];
+    }
+
+    // Add the remaining scalar sums to the total (from the AVX registers)
+    double sum_prod_final = 0.0, sum1_final = 0.0;
+
+    sum_prod_final += sum_prod_scalar;
+    sum1_final += sum1_scalar;
+
+    // Add the AVX sums to the final totals
+    for (int j = 0; j < 4; j++) {
+        sum_prod_final += prod_vals[j];
+        sum1_final += sum1_vals[j];
+    }
+
+
+    // Avoid division by zero
+    if (sum1_final == 0.0) {
+        printf("Warning: Denominator is zero, returning 0.0\n");
+        return 0.0;  // Return zero if the denominator is zero
+    }
+
+    // Final result: weighted sum divided by the sum of array1
+    double result = sum_prod_final / sum1_final;
+
+    // Debugging: Print the final result
+    printf("Final result: %f\n", result);
+
+    return result;
+}
+
+
+
