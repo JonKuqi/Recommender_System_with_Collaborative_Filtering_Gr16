@@ -10,11 +10,12 @@ class MergingItemAndUserBased:
 
         itemBasedBookList = ItemBasedFilter.getRecommendations(userId, data)
 
-        userBasedBookList = PearsonCorrelation.predict_for_user(userId)
+        #userBasedBookList = PearsonCorrelation.predict_for_user(userId)
+        userBasedBookList = ItemBasedFilter.getRecommendations(userId, data)
 
 
         if automatic:
-            alpha = MergingItemAndUserBased.getAlpha(data)
+            alpha = MergingItemAndUserBased.getAlpha(userId, data)
 
         beta = 1.0 - alpha
         resultBookList = {}
@@ -27,24 +28,37 @@ class MergingItemAndUserBased:
 
         sortedResults = dict(sorted(resultBookList.items(), key=lambda item: item[1], reverse=True))
 
-        finalResultOrder =
+        finalResultOrder = []
 
         allBooks = data['items']
 
+        for bookId in sortedResults:
+            if bookId in allBooks:
+                finalResultOrder.append(allBooks[bookId]["title"])
 
+        return finalResultOrder
 
 
 
     @staticmethod
-    def getAlpha(data):
-        pass
+    def getAlpha(userId, data):
+
+        numberOfBooks = len(data['items'])
+        numberOfRatingsOfUser = len(data['user-items'])
+
+
+        alpha = 1 - (numberOfRatingsOfUser / (5 * numberOfBooks))
+
+        print(alpha)
+        return alpha
 
 
 
 
 
+#resultList = MergingItemAndUserBased.mergeItemAndUserBased("1", DataFetcher.getAllData(), False, 0.5)
+resultList = MergingItemAndUserBased.mergeItemAndUserBased("1", DataFetcher.getAllData(), True)
 
+for i in range(len(resultList)):
+    print(f"{i+1}. {resultList[i]}")
 
-#MergingItemAndUserBased.mergeItemAndUserBased("1", DataFetcher.getAllData(), False, 0.5)
-
-MergingItemAndUserBased.mergeItemAndUserBased("1", DataFetcher.getAllData(), True)

@@ -10,11 +10,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 class ItemBasedFilter:
 
-    categoryImportance = {"title": 0.25,
-                          "author": 0.25,
-                          "rating": 0.25,
-                          "genres": 0.25,
-                          "description": 0.25}
+    categoryImportance = {"title": 0.1,
+                          "author": 0.3,
+                          "genres": 0.3,
+                          "description": 0.3}
 
     #To return a dict of books and their score from  0 to 5
 
