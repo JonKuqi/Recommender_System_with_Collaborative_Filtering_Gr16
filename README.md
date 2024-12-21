@@ -24,6 +24,7 @@ To execute, simply run the `main.py` file, which contains the mergeItemAndUserBa
 
  - `userId`: the ID of the user for whom you want to predict which books they might like.
  - `data`: the input dataset.
+ - `numberOf`: the number of books listed in the result
  - `automatic`: if set to true, it automatically adjusts the weight of the result calculated with cosine similarity relative to the result from Pearson similarity (depending on the number of ratings users have given for the books). If set to false, an additional value (the alpha coefficient) must be provided, which indicates the level of importance cosine similarity will have in the final result.
 
 After this method is executed, a list of books will be displayed that the user with the specified ID might like based on their previous preferences. The list is sorted by similarity to the liked books and the ratings those books have received.
@@ -94,22 +95,19 @@ One matrix looks like this:<br>
 | ...            |       .        |       .       |       .       |      .        |
 | Book n         |      0.74      |      0.56     |       .       |      0.68     |
 
-From `1` to `n` are books that the user rated, and from `n+1` to `n+m` are the books that user 
+From `1` to `n` are books that the user rated, and from `n+1` to `n+m` are the books that the user has gived rating."
 
-- P2
- 
-<p align="center">Gif 2
-<a>
-    <img src="" alt="Logo" height="350" align="center">
-  </a>
-</p>
+For each book that user has not gived any rate, from this table we calculate an average of similarity with all other rated books, indicated by the rate that user has gived to rated books. This means that we build a vector that has the value for each unrated books. We did this for 4 matrixes so this means that we have 4 vectors (for 4 books atribures). 
+Then we combined these 4 vectors, taking into account the importance of each attribute (title, author, genres, description, each having a value from 0 to 1, and many of them having a value of 1). So, we ended up with a single vector.
 
-<br><br><br>
+We combined this vector with the vector obtained from the calculations with Pearson similarity (which is user-based), but the combination happens in such a way that their effect on the final result depends on the number of ratings given by users in comparison to the number of books. This is described by the coefficients `alpha` and `beta`.
 
 
+## Efficiency of the program
+Besides being very functional, this program is also efficient. Considering the number of calculations required by a matrix, and the programming language we used, we found it reasonable to perform some of the calculations in the C programming language. For more than that, the calculations were done with AXV registers. This ensures an increase in calculation speed.
 
-<br><br><br>
+In operations where addition or multiplication between vector elements was required, we used registers that hold 4 variables, and the addition or multiplication of the 4 variables is done simultaneously. Therefore, loops for iteration have an increment step of +4.
 
 
 <br><br>
-   <a href="#top">Kthehu në fillim ↑</a>
+   <a href="#top">Return in the top of page ↑</a>
