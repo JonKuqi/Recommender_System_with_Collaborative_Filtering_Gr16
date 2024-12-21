@@ -108,6 +108,7 @@ Besides being very functional, this program is also efficient. Considering the n
 
 In operations where addition or multiplication between vector elements was required, we used registers that hold 4 variables, and the addition or multiplication of the 4 variables is done simultaneously. Therefore, loops for iteration have an increment step of +4.
 
+<br><br>
 1. Clone this project:
    ```bash
    git clone https://github.com/JonKuqi/Recommender_System_with_Collaborative_Filtering_Gr16.git
