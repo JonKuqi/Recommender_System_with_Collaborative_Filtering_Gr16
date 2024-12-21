@@ -6,7 +6,7 @@
 <h2 align="center">University of Prishtina : Faculty of Electrical and Computer Engineering</h2>
 <h3 align="center">Course: Diesign and Analysis of Algorithms</h3>
 <h2 align="center">Project: Recommender System with Collaborative Filtering</h2>
-<p align="left">Prfessor: Avni Rexhepi</p>
+<p align="left">Professor: Avni Rexhepi</p>
 <p align="left">Assistant: Adrian Ymeri</p>
 
 <p align="left">Students: Jon Kuçi, Kaltrina Krasniqi, Erza Gashi, Edon Gashi</p><br><br>
@@ -108,6 +108,8 @@ Besides being very functional, this program is also efficient. Considering the n
 
 In operations where addition or multiplication between vector elements was required, we used registers that hold 4 variables, and the addition or multiplication of the 4 variables is done simultaneously. Therefore, loops for iteration have an increment step of +4.
 
-
+1. Clone this project:
+   ```bash
+   git clone https://github.com/JonKuqi/Recommender_System_with_Collaborative_Filtering_Gr16.git
 <br><br>
    <a href="#top">Return in the top of page ↑</a>
