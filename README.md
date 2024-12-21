@@ -19,7 +19,7 @@ This program is a recommendation system using collaborative filtering. The progr
 <br><br>
 
  <br><br>
-## Usement
+## How to Configure
 To execute, simply run the `main.py` file, which contains the mergeItemAndUserBased method within the MergingItemAndUserBased class. This method accepts 4 inputs:
 
  - `userId`: the ID of the user for whom you want to predict which books they might like.
