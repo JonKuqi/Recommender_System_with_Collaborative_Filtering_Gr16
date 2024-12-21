@@ -130,9 +130,9 @@ $$
 <h4>Formula</h4>
 <p>The formula for predicting the rating for a user using Pearson correlation is:</p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/44312551-1a81-4245-90f7-597f0c0e1126" alt="Logo" height="100">
-</p>
+<div align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{White}\hat{r}_{u,i}=\bar{r}_u+\frac{\sum_{v\in{N(u)}}(r_{v,i}-\bar{r}_v)\cdot\text{sim}(u,v)}{\sum_{v\in{N(u)}}|\text{sim}(u,v)|}" alt="Formula" />
+</div>
 
 
 <p>Where:</p>
