@@ -31,7 +31,7 @@ class MergingItemAndUserBased:
             if bookId in userBasedBookList:
                 resultBookList[bookId] = itemBasedBookList[bookId] * alpha + userBasedBookList[bookId] * beta
             else:
-                resultBookList[bookId] = itemBasedBookList[bookId] * alpha
+                resultBookList[bookId] = itemBasedBookList[bookId]
 
         sortedResults = dict(sorted(resultBookList.items(), key=lambda item: item[1], reverse=True))
 

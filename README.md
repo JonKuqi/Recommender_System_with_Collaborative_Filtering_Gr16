@@ -9,16 +9,15 @@
 <p align="left">Professor: Avni Rexhepi</p>
 <p align="left">Assistant: Adrian Ymeri</p>
 
-<p align="left">Students: Jon Kuçi, Kaltrina Krasniqi, Erza Gashi, Edon Gashi</p><br><br>
+<p align="left">Students: Jon Kuçi, Kaltrina Krasniqi, Erza Gashi, Edon Gashi</p>
 
-</p>
 
 ## Project summary
 
 This program is a recommendation system using collaborative filtering. The program takes as input 3 JSON files, which contain a list of users, a list of books, and a dataset describing the ratings users give to books. The program can determine which books a specific user might like the most, based on the ratings they have given to other similar books. To achieve the most accurate results, calculations are performed using two methods: `Cosine Similarity` and `Pearson Similarity`, and their average is computed.
-<br><br>
+<br>
 
- <br>
+ 
  
 ## How to Configure
 To execute, simply run the `main.py` file, which contains the `mergeItemAndUserBased` method within the `MergingItemAndUserBased` class. This method accepts 4 inputs:
@@ -29,7 +28,7 @@ To execute, simply run the `main.py` file, which contains the `mergeItemAndUserB
  - `automatic`: if set to true, it automatically adjusts the weight of the result calculated with cosine similarity relative to the result from Pearson similarity (depending on the number of ratings users have given for the books). If set to false, an additional value (the alpha coefficient) must be provided, which indicates the level of importance cosine similarity will have in the final result.
 
 After this method is executed, a list of books will be displayed that the user with the specified ID might like based on their previous preferences. The list is sorted by similarity to the liked books and the ratings those books have received.
-<br><br>
+<br>
 
 ## Cosine similarity
 Cosine Similarity is a metric used to measure the similarity between two non-zero vectors in an inner product space. It calculates the cosine of the angle between two vectors, with values ranging from 0 to 1:
@@ -114,12 +113,6 @@ $$
 $$
 
 
-<p>Where:</p>
-<ul>
-    <li><strong>xᵢ</strong> and <strong>yᵢ</strong> are individual ratings given by two users on the same item.</li>
-    <li><strong>x̄</strong> and <strong>ȳ</strong> are the average ratings of the respective users.</li>
-</ul>
-
 <p>A Pearson correlation value of:</p>
 <ul>
     <li><strong>1</strong> indicates a perfect positive correlation (the users have identical ratings).</li>
@@ -133,17 +126,6 @@ $$
 <div align="center">
   <img src="https://latex.codecogs.com/svg.latex?\color{White}\hat{r}_{u,i}=\bar{r}_u+\frac{\sum_{v\in{N(u)}}(r_{v,i}-\bar{r}_v)\cdot\text{sim}(u,v)}{\sum_{v\in{N(u)}}|\text{sim}(u,v)|}" alt="Formula" />
 </div>
-
-
-<p>Where:</p>
-<ul>
-    <li><strong>r̂<sub>u,i</sub></strong> is the predicted rating for user <strong>u</strong> for item <strong>i</strong>.</li>
-    <li><strong>r̄<sub>u</sub></strong> is the average rating of user <strong>u</strong>.</li>
-    <li><strong>r<sub>v,i</sub></strong> is the rating of user <strong>v</strong> for item <strong>i</strong>.</li>
-    <li><strong>r̄<sub>v</sub></strong> is the average rating of user <strong>v</strong>.</li>
-    <li><strong>sim(u,v)</strong> is the Pearson correlation between users <strong>u</strong> and <strong>v</strong>.</li>
-    <li><strong>N(u)</strong> is the set of users who have rated item <strong>i</strong> and are similar to user <strong>u</strong>.</li>
-</ul>
 
 
 <h4>Process in the Recommendation System</h4>
