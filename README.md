@@ -101,7 +101,59 @@ For each book that user has not gived any rate, from this table we calculate an 
 Then we combined these 4 vectors, taking into account the importance of each attribute (title, author, genres, description, each having a value from 0 to 1, and sum of them having a value of 1). So, we ended up with a single vector.
 
 We combined this vector with the vector obtained from the calculations with Pearson similarity (which is user-based), but the combination happens in such a way that their effect on the final result depends on the number of ratings given by users in comparison to the number of books. This is described by the coefficients `alpha` and `beta`.
+<h3>Pearson Correlation in Collaborative Filtering</h3>
+<p>Pearson correlation is a statistical method used to measure the strength and direction of a linear relationship between two variables. In the context of a recommendation system, Pearson correlation helps determine how similar two users are based on the ratings they give to common items (e.g., books).</p>
 
+<p>In this recommendation system, Pearson correlation is applied to predict a user’s rating for a book they haven’t rated yet, by using the ratings of other similar users.</p>
+
+<h4>Formula</h4>
+<p>The formula for Pearson correlation is:</p>
+
+$$
+\text{Pearson Correlation} = \frac{\sum_{i=1}^n (x_i - AVG(X))(y_i - AVG(Y))}{\sqrt{\sum_{i=1}^n (x_i - AVG(X))^2} \cdot \sqrt{\sum_{i=1}^n (y_i - AVG(Y))^2}}
+$$
+
+
+<p>Where:</p>
+<ul>
+    <li><strong>xᵢ</strong> and <strong>yᵢ</strong> are individual ratings given by two users on the same item.</li>
+    <li><strong>x̄</strong> and <strong>ȳ</strong> are the average ratings of the respective users.</li>
+</ul>
+
+<p>A Pearson correlation value of:</p>
+<ul>
+    <li><strong>1</strong> indicates a perfect positive correlation (the users have identical ratings).</li>
+    <li><strong>0</strong> indicates no correlation (the users' ratings are completely independent).</li>
+    <li><strong>-1</strong> indicates a perfect negative correlation (the users rate items in opposite ways).</li>
+</ul>
+
+<h4>Formula</h4>
+<p>The formula for predicting the rating for a user using Pearson correlation is:</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/44312551-1a81-4245-90f7-597f0c0e1126" alt="Logo" height="100">
+</p>
+
+
+<p>Where:</p>
+<ul>
+    <li><strong>r̂<sub>u,i</sub></strong> is the predicted rating for user <strong>u</strong> for item <strong>i</strong>.</li>
+    <li><strong>r̄<sub>u</sub></strong> is the average rating of user <strong>u</strong>.</li>
+    <li><strong>r<sub>v,i</sub></strong> is the rating of user <strong>v</strong> for item <strong>i</strong>.</li>
+    <li><strong>r̄<sub>v</sub></strong> is the average rating of user <strong>v</strong>.</li>
+    <li><strong>sim(u,v)</strong> is the Pearson correlation between users <strong>u</strong> and <strong>v</strong>.</li>
+    <li><strong>N(u)</strong> is the set of users who have rated item <strong>i</strong> and are similar to user <strong>u</strong>.</li>
+</ul>
+
+
+<h4>Process in the Recommendation System</h4>
+<p>The <strong>load_data</strong> method retrieves the dataset containing users, books, and ratings, which is necessary for the correlation and prediction calculations.</p>
+
+<p>The <strong>pearson_correlation</strong> method calculates the similarity between two users based on their ratings, using the differences from their average ratings to compute the correlation coefficient.</p>
+
+<p>The <strong>predict_rating</strong> method predicts a target user's rating for unrated books by calculating a weighted average of other users' ratings, adjusted by the target user's average rating.</p>
+
+<p>The <strong>predict_for_user</strong> method predicts ratings for all unrated books by calculating correlations with other users and using the <strong>predict_rating</strong> function.</p>
 
 ## Efficiency of the program
 Besides being very functional, this program is also efficient. Considering the number of calculations required by a matrix, and the programming language we used, we found it reasonable to perform some of the calculations in the C programming language. For more than that, the calculations were done with AXV registers. This ensures an increase in calculation speed.
