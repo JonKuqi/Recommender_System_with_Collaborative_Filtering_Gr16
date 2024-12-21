@@ -114,7 +114,8 @@ In operations where addition or multiplication between vector elements was requi
   </a>
   </p>
 <br><br>
-<br><br>
+
+
 1. Clone this project:
    ```bash
    git clone https://github.com/JonKuqi/Recommender_System_with_Collaborative_Filtering_Gr16.git
