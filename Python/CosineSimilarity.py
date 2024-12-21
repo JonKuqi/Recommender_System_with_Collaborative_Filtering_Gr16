@@ -210,6 +210,7 @@ class ItemBasedFilter:
 
             # Call the C function
             result = ItemBasedFilter.cFunctions.cosineSimilarity(arrayA, arrayB, n)
+
             return result
 
 
@@ -217,6 +218,7 @@ class ItemBasedFilter:
             for bookId_2 in unRatedMap:
                 resultMatrix.setdefault(bookId, {})
                 resultFromC = cosine_similarity_py(ratedMap[bookId], unRatedMap[bookId_2])
+                #resultFromC = ItemBasedFilter.cosineTest(ratedMap[bookId], unRatedMap[bookId_2])
                 if  not math.isnan(resultFromC):
                     resultMatrix[bookId][bookId_2] = resultFromC
                 else:
