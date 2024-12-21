@@ -27,11 +27,11 @@
         "description": "Holden Caulfield, a disillusioned teenager, narrates his experiences after being expelled from an elite prep school. As he wanders New York City, Holden grapples with depression, alienation, and the loss of innocence, offering a poignant reflection on adolescence and society."
     },
     "5": {
-        "title": "Moby-Dick",
-        "author": "Herman Melville",
-        "rating": 4.1,
-        "genres": ["Classics", "Adventure", "Fiction", "Literature", "Philosophy", "Sea Adventures", "Existentialism"],
-        "description": "Moby-Dick tells the story of Captain Ahab’s obsessive quest to kill the giant white whale, Moby Dick, that severed his leg. The novel explores themes of obsession, fate, and the human condition, set against the backdrop of a whaling voyage."
+        "title": "The Night's Embrace",
+        "author": "Mary Shelley",
+        "rating": 4.48,
+        "genres": ["Classics", "Historical", "Thriller", "Adventure"],
+        "description": "An epic adventure that tests the limits of friendship and loyalty. A moving exploration of human relationships and resilience. An unforgettable narrative that examines morality and justice. A story of courage and determination set against the backdrop of war. This timeless classic explores themes of identity, society, and change. An intriguing mystery wrapped in layers of social commentary. A moving exploration of human relationships and resilience. An unforgettable narrative that examines morality and justice. A sweeping saga of power, politics, and passion. A moving exploration of human relationships and resilience."
     },
     "6": {
         "title": "Pride and Prejudice",
@@ -62,11 +62,11 @@
         "description": "Frankenstein tells the tale of Victor Frankenstein, a scientist who creates a creature in a horrific experiment. The novel explores themes of creation, responsibility, and the consequences of scientific ambition, and is often seen as a cautionary tale about unchecked progress."
     },
     "10": {
-        "title": "The Hobbit",
-        "author": "J.R.R. Tolkien",
-        "rating": 4.7,
-        "genres": ["Fantasy", "Adventure", "Fiction", "Classics", "Children's Literature", "Epic", "Mythology"],
-        "description": "Bilbo Baggins, a hobbit, embarks on a perilous journey with a group of dwarves to reclaim their home from the dragon Smaug. Along the way, Bilbo encounters trolls, goblins, and elves, while discovering his own bravery and resourcefulness."
+       "title": "The Night's Embrace",
+        "author": "Mary Shelley",
+        "rating": 4.48,
+        "genres": ["Classics", "Historical", "Thriller", "Adventure"],
+        "description": "An epic adventure that tests the limits of friendship and loyalty. A moving exploration of human relationships and resilience. An unforgettable narrative that examines morality and justice. A story of courage and determination set against the backdrop of war. This timeless classic explores themes of identity, society, and change. An intriguing mystery wrapped in layers of social commentary. A moving exploration of human relationships and resilience. An unforgettable narrative that examines morality and justice. A sweeping saga of power, politics, and passion. A moving exploration of human relationships and resilience."
     },
     "11": {
         "title": "The Picture of Dorian Gray",
@@ -83,11 +83,11 @@
         "description": "The Odyssey follows the adventures of Odysseus as he struggles to return home after the Trojan War. Along the way, he faces monsters, gods, and temptations, while his wife Penelope waits for his return. The epic explores themes of perseverance, loyalty, and fate."
     },
     "13": {
-        "title": "The Road",
-        "author": "Cormac McCarthy",
-        "rating": 4.0,
-        "genres": ["Dystopian", "Fiction", "Post-apocalyptic", "Literature", "Survival", "Family"],
-        "description": "A father and his young son journey through a bleak, post-apocalyptic landscape, struggling to survive against both the environment and other survivors. The novel explores love, survival, and the human spirit in a world where hope is scarce."
+        "title": "Threads of Fate",
+        "author": "Homer",
+        "rating": 4.98,
+        "genres": ["Fantasy", "Science Fiction", "Adventure", "Mystery", "Literature"],
+        "description": "A story of courage and determination set against the backdrop of war. An intriguing mystery wrapped in layers of social commentary. An epic adventure that tests the limits of friendship and loyalty. A moving exploration of human relationships and resilience. A moving exploration of human relationships and resilience. An epic adventure that tests the limits of friendship and loyalty. An intriguing mystery wrapped in layers of social commentary. This timeless classic explores themes of identity, society, and change. An epic adventure that tests the limits of friendship and loyalty. This timeless classic explores themes of identity, society, and change."
     },
     "14": {
         "title": "Catch-22",
@@ -153,11 +153,11 @@
         "description": "The Alchemist tells the story of Santiago, a young shepherd who embarks on a journey in search of treasure. Along the way, he learns valuable life lessons about following one's dreams and the importance of listening to one's heart."
     },
     "23": {
-        "title": "The Girl on the Train",
-        "author": "Paula Hawkins",
-        "rating": 4.1,
-        "genres": ["Psychological Thriller", "Mystery", "Fiction", "Suspense", "Crime"],
-        "description": "Rachel, an alcoholic woman, becomes obsessed with a couple she watches from the train each day. When the woman goes missing, Rachel is drawn into the investigation, leading to twists and revelations about her own past."
+        "title": "Echoes of Eternity",
+        "author": "Ernest Hemingway",
+        "rating": 2.05,
+        "genres": ["Poetry", "Romance", "Thriller"],
+        "description": "An epic adventure that tests the limits of friendship and loyalty. A gripping tale of life, love, and struggles in a complex world. A story of courage and determination set against the backdrop of war. This beautifully written story delves into the human spirit's depths. A sweeping saga of power, politics, and passion. This timeless classic explores themes of identity, society, and change. This beautifully written story delves into the human spirit's depths. A sweeping saga of power, politics, and passion. An unforgettable narrative that examines morality and justice. A moving exploration of human relationships and resilience."
     },
     "24": {
         "title": "The Outsiders",
@@ -230,25 +230,25 @@
         "description": "Holden Caulfield, a disillusioned teenager, narrates his experiences after being expelled from an elite prep school. He grapples with depression, alienation, and the loss of innocence."
     },
     "34": {
-        "title": "The Hobbit",
-        "author": "J.R.R. Tolkien",
-        "rating": 4.7,
-        "genres": ["Fantasy", "Adventure", "Children's Literature", "Epic", "Mythology"],
-        "description": "Bilbo Baggins, a hobbit, embarks on a perilous journey with a group of dwarves to reclaim their home from the dragon Smaug. Along the way, he encounters trolls, goblins, and elves, while discovering his own bravery."
+        "title": "Seeds of Betrayal",
+        "author": "Harper Lee",
+        "rating": 3.27,
+        "genres": ["Tragedy", "Fiction", "Thriller", "Historical", "Romance", "Mystery"],
+        "description": "A story of courage and determination set against the backdrop of war. This timeless classic explores themes of identity, society, and change. This beautifully written story delves into the human spirit's depths. A gripping tale of life, love, and struggles in a complex world. This timeless classic explores themes of identity, society, and change. A poignant tale of love and betrayal in a small community. A poignant tale of love and betrayal in a small community. A sweeping saga of power, politics, and passion. An epic adventure that tests the limits of friendship and loyalty. An unforgettable narrative that examines morality and justice."
     },
     "35": {
-        "title": "The Outsiders",
-        "author": "S.E. Hinton",
-        "rating": 4.0,
-        "genres": ["Fiction", "Classics", "Young Adult", "Literature", "Family", "Coming-of-Age"],
-        "description": "The Outsiders tells the story of two rival teenage gangs, the Greasers and the Socs, and the struggles they face in a divided society. It explores themes of friendship, identity, and social inequality."
+        "title": "Beyond the Veil",
+        "author": "Alexandre Dumas",
+        "rating": 4.66,
+        "genres": ["Science Fiction", "Mystery", "Classics", "Thriller", "Drama", "Historical"],
+        "description": "A poignant tale of love and betrayal in a small community. An unforgettable narrative that examines morality and justice. A sweeping saga of power, politics, and passion. This timeless classic explores themes of identity, society, and change. An unforgettable narrative that examines morality and justice. An epic adventure that tests the limits of friendship and loyalty. A poignant tale of love and betrayal in a small community. An unforgettable narrative that examines morality and justice. A moving exploration of human relationships and resilience. A sweeping saga of power, politics, and passion."
     },
     "36": {
-        "title": "The Girl with the Dragon Tattoo",
-        "author": "Stieg Larsson",
-        "rating": 4.2,
-        "genres": ["Crime", "Mystery", "Thriller", "Fiction", "Suspense", "Detective"],
-        "description": "Journalist Mikael Blomkvist teams up with the mysterious and brilliant hacker Lisbeth Salander to investigate the disappearance of a young woman from a powerful family. The investigation uncovers dark secrets and dangers."
+        "title": "The Forgotten Symphony",
+        "author": "Leo Tolstoy",
+        "rating": 2.71,
+        "genres": ["Romance", "Fantasy", "Poetry", "Tragedy", "Literature"],
+        "description": "A gripping tale of life, love, and struggles in a complex world. A poignant tale of love and betrayal in a small community. An epic adventure that tests the limits of friendship and loyalty. An unforgettable narrative that examines morality and justice. This beautifully written story delves into the human spirit's depths. A gripping tale of life, love, and struggles in a complex world. A story of courage and determination set against the backdrop of war. An intriguing mystery wrapped in layers of social commentary. An intriguing mystery wrapped in layers of social commentary. An epic adventure that tests the limits of friendship and loyalty."
     },
     "37": {
         "title": "The Martian",
@@ -314,11 +314,11 @@
         "description": "The Price family moves to the Congo in 1959, where father Nathan, a missionary, seeks to convert the locals. His rigid, domineering ways lead to tragedy for his family, as they struggle to survive and adapt to their new surroundings."
     },
     "46": {
-        "title": "The Secret History",
-        "author": "Donna Tartt",
-        "rating": 4.2,
-        "genres": ["Crime", "Mystery", "Literature", "Psychological Thriller", "Fiction"],
-        "description": "A group of elite college students commit a murder that sets off a series of tragic events. The novel delves into themes of guilt, beauty, and intellectualism, set against a hauntingly atmospheric backdrop."
+        "title": "A Shard of Starlight",
+        "author": "Alexandre Dumas",
+        "rating": 2.02,
+        "genres": ["Tragedy", "Fiction", "Horror", "Adventure", "Classics", "Mystery"],
+        "description": "A story of courage and determination set against the backdrop of war. A moving exploration of human relationships and resilience. A moving exploration of human relationships and resilience. This timeless classic explores themes of identity, society, and change. An intriguing mystery wrapped in layers of social commentary. This timeless classic explores themes of identity, society, and change. A moving exploration of human relationships and resilience. This timeless classic explores themes of identity, society, and change. A moving exploration of human relationships and resilience. This beautifully written story delves into the human spirit's depths."
     },
     "47": {
         "title": "The Kite Runner",
@@ -328,11 +328,11 @@
         "description": "In a story of betrayal and redemption, Amir, a young boy from Kabul, struggles to come to terms with his past, particularly his failure to protect his childhood friend Hassan."
     },
     "48": {
-        "title": "The Road",
-        "author": "Cormac McCarthy",
-        "rating": 4.0,
-        "genres": ["Post-apocalyptic", "Fiction", "Drama", "Survival", "Literature"],
-        "description": "A father and son journey through a bleak, desolate America following an unspecified catastrophe. As they struggle to survive, they find hope and love in each other amidst the dire circumstances."
+        "title": "The Obsidian Key",
+        "author": "Ernest Hemingway",
+        "rating": 3.46,
+        "genres": ["Historical", "Romance", "Fiction"],
+        "description": "An unforgettable narrative that examines morality and justice. An intriguing mystery wrapped in layers of social commentary. This beautifully written story delves into the human spirit's depths. A sweeping saga of power, politics, and passion. A story of courage and determination set against the backdrop of war. A moving exploration of human relationships and resilience. A gripping tale of life, love, and struggles in a complex world. An intriguing mystery wrapped in layers of social commentary. This timeless classic explores themes of identity, society, and change. This beautifully written story delves into the human spirit's depths."
     },
     "49": {
         "title": "The Hunger Games",
@@ -363,11 +363,11 @@
         "description": "A multi-generational tale of the Buendía family in the fictional town of Macondo, this novel blends the fantastical and the real, exploring themes of solitude, love, and fate."
     },
     "53": {
-        "title": "The Girl on the Train",
-        "author": "Paula Hawkins",
-        "rating": 4.1,
-        "genres": ["Psychological Thriller", "Crime", "Fiction", "Suspense", "Mystery"],
-        "description": "Rachel, an alcoholic woman, becomes obsessed with a couple she watches from the train each day. When the woman goes missing, Rachel is drawn into the investigation, leading to twists and revelations."
+        "title": "Chronicles of the Infinite",
+        "author": "Fyodor Dostoevsky",
+        "rating": 3.84,
+        "genres": ["Mystery", "Biography", "Classics", "Drama", "Tragedy", "Poetry"],
+        "description": "An unforgettable narrative that examines morality and justice. A story of courage and determination set against the backdrop of war. This timeless classic explores themes of identity, society, and change. This timeless classic explores themes of identity, society, and change. A story of courage and determination set against the backdrop of war. A poignant tale of love and betrayal in a small community. This timeless classic explores themes of identity, society, and change. A story of courage and determination set against the backdrop of war. A story of courage and determination set against the backdrop of war. A moving exploration of human relationships and resilience."
     },
     "54": {
         "title": "The Giver",
@@ -419,11 +419,11 @@
         "description": "Henry DeTamble involuntarily time travels, causing a strain on his relationship with Clare Abshire. Their love story spans across time, exploring fate, loss, and the passage of time."
     },
     "61": {
-        "title": "The Road",
-        "author": "Cormac McCarthy",
-        "rating": 4.4,
-        "genres": ["Post-apocalyptic", "Fiction", "Survival", "Literature", "Drama"],
-        "description": "A father and his son navigate a desolate America after an unspecified disaster, struggling for survival in a bleak world. Despite the bleak setting, their bond offers a glimpse of hope."
+        "title": "Kingdom of Ashes",
+        "author": "John Steinbeck",
+        "rating": 4.57,
+        "genres": ["Classics", "Biography", "Mystery", "Horror"],
+        "description": "An epic adventure that tests the limits of friendship and loyalty. A poignant tale of love and betrayal in a small community. This timeless classic explores themes of identity, society, and change. This beautifully written story delves into the human spirit's depths. A moving exploration of human relationships and resilience. A story of courage and determination set against the backdrop of war. An unforgettable narrative that examines morality and justice. This timeless classic explores themes of identity, society, and change. A story of courage and determination set against the backdrop of war. A sweeping saga of power, politics, and passion."
     },
     "62": {
         "title": "Pride and Prejudice",
@@ -489,11 +489,11 @@
         "description": "Jonas lives in a world where emotions and memories are controlled. As he begins to receive memories of the past, he learns the dark truths about his society and his own potential."
     },
     "71": {
-        "title": "The Outsiders",
-        "author": "S.E. Hinton",
-        "rating": 4.0,
-        "genres": ["Fiction", "Young Adult", "Classics", "Literature"],
-        "description": "A story about the rivalry between two groups of teens, the Greasers and the Socs. The novel deals with themes of social class, loyalty, and the struggles of adolescence."
+        "title": "The Mirror's Curse",
+        "author": "Fyodor Dostoevsky",
+        "rating": 4.48,
+        "genres": ["Poetry", "Historical", "Fantasy", "Biography", "Mystery"],
+        "description": "A story of courage and determination set against the backdrop of war. This beautifully written story delves into the human spirit's depths. A sweeping saga of power, politics, and passion. An intriguing mystery wrapped in layers of social commentary. An epic adventure that tests the limits of friendship and loyalty. A gripping tale of life, love, and struggles in a complex world. A story of courage and determination set against the backdrop of war. This timeless classic explores themes of identity, society, and change. This timeless classic explores themes of identity, society, and change. An unforgettable narrative that examines morality and justice."
     },
     "72": {
         "title": "The Maze Runner",
@@ -615,11 +615,11 @@
         "description": "In post-World War II Barcelona, a young boy named Daniel discovers a forgotten book by a mysterious author. As he delves into the author's life, he uncovers secrets that lead to a web of intrigue, betrayal, and danger."
     },
     "89": {
-        "title": "The Girl on the Train",
-        "author": "Paula Hawkins",
-        "rating": 3.9,
-        "genres": ["Psychological Thriller", "Crime", "Mystery", "Suspense", "Fiction"],
-        "description": "Rachel, an alcoholic woman, watches a seemingly perfect couple from her train ride every day. When the woman goes missing, Rachel becomes embroiled in a dangerous investigation that uncovers dark truths."
+        "title": "Beneath the Crimson Sky",
+        "author": "William Shakespeare",
+        "rating": 2.37,
+        "genres": ["Tragedy", "Science Fiction", "Thriller", "Mystery", "Poetry"],
+        "description": "This beautifully written story delves into the human spirit's depths. A poignant tale of love and betrayal in a small community. This timeless classic explores themes of identity, society, and change. An unforgettable narrative that examines morality and justice. A moving exploration of human relationships and resilience. A gripping tale of life, love, and struggles in a complex world. This timeless classic explores themes of identity, society, and change. An unforgettable narrative that examines morality and justice. This beautifully written story delves into the human spirit's depths. A story of courage and determination set against the backdrop of war."
     },
     "90": {
         "title": "The Girl with the Dragon Tattoo",
@@ -636,11 +636,11 @@
         "description": "Lydia and her son flee the violence of cartel-dominated Mexico, embarking on a perilous journey to cross the border into the United States. The novel explores the human cost of immigration and survival."
     },
     "92": {
-        "title": "Circe",
-        "author": "Madeline Miller",
-        "rating": 4.4,
-        "genres": ["Fantasy", "Mythology", "Fiction", "Historical Fiction", "Classics"],
-        "description": "A retelling of the myth of Circe, the witch from Homer’s *Odyssey*, this novel explores her transformation from a powerless daughter of gods into a powerful and independent woman."
+         "title": "The Harbinger's Call",
+        "author": "Homer",
+        "rating": 4.7,
+        "genres": ["Literature", "Fantasy", "Classics", "Mystery"],
+        "description": "A gripping tale of life, love, and struggles in a complex world. A sweeping saga of power, politics, and passion. This beautifully written story delves into the human spirit's depths. An epic adventure that tests the limits of friendship and loyalty. This timeless classic explores themes of identity, society, and change. A sweeping saga of power, politics, and passion. An epic adventure that tests the limits of friendship and loyalty. A sweeping saga of power, politics, and passion. A poignant tale of love and betrayal in a small community. An unforgettable narrative that examines morality and justice."
     },
     "93": {
         "title": "The Underground Railroad",
@@ -700,11 +700,11 @@
         "description": "Bilbo Baggins, a hobbit, is thrust into an adventure with a group of dwarves and the wizard Gandalf, on a quest to reclaim the treasure guarded by the fearsome dragon Smaug."
 },
     "101": {
-        "title": "The Outsider",
-        "author": "Stephen King",
-        "rating": 4.1,
-        "genres": ["Mystery", "Horror", "Thriller", "Crime", "Suspense"],
-        "description": "A brutal murder of an 11-year-old boy points to a local teacher, Terry Maitland, as the prime suspect. But as detective Ralph Anderson investigates further, eerie supernatural elements emerge."
+        "title": "The Clockmaker's Daughter",
+        "author": "Leo Tolstoy",
+        "rating": 3.18,
+        "genres": ["Adventure", "Historical", "Literature", "Drama", "Classics"],
+        "description": "An intriguing mystery wrapped in layers of social commentary. A sweeping saga of power, politics, and passion. An epic adventure that tests the limits of friendship and loyalty. This timeless classic explores themes of identity, society, and change. This timeless classic explores themes of identity, society, and change. A gripping tale of life, love, and struggles in a complex world. A poignant tale of love and betrayal in a small community. This beautifully written story delves into the human spirit's depths. A moving exploration of human relationships and resilience. An intriguing mystery wrapped in layers of social commentary."
     },
     "102": {
         "title": "The Night Watchman",
@@ -721,11 +721,11 @@
         "description": "This heartfelt novel tells the story of two former college sweethearts, Matt and Grace, who reconnect years later and struggle with lost love, regret, and second chances."
     },
     "104": {
-        "title": "The Paper Palace",
-        "author": "Miranda Cowley Heller",
-        "rating": 4.0,
-        "genres": ["Fiction", "Contemporary Fiction", "Family Drama", "Romance"],
-        "description": "Set at a summer retreat in Cape Cod, this novel reveals long-hidden family secrets when Elle, married with children, faces a life-changing decision between two men."
+        "title": "Symphony, The Last",
+        "author": "Leo Tolstoy",
+        "rating": 2.71,
+        "genres": ["Romance", "Fantasy", "Poetry", "Tragedy", "Literature"],
+        "description": "A gripping tale of life, love, and struggles in a complex world. A poignant tale of love and betrayal in a small community. An epic adventure that tests the limits of friendship and loyalty. An unforgettable narrative that examines morality and justice. This beautifully written story delves into the human spirit's depths. A gripping tale of life, love, and struggles in a complex world. A story of courage and determination set against the backdrop of war. An intriguing mystery wrapped in layers of social commentary. An intriguing mystery wrapped in layers of social commentary. An epic adventure that tests the limits of friendship and loyalty."
     },
     "105": {
         "title": "The Subtle Art of Not Giving a F*ck",
@@ -742,11 +742,11 @@
         "description": "Three families are linked by a dark secret in this gripping thriller. Libby Jones, a 25-year-old woman, inherits a mansion, and her investigation into her inheritance uncovers a tragic history."
     },
     "107": {
-        "title": "Circe",
-        "author": "Madeline Miller",
-        "rating": 4.3,
-        "genres": ["Fantasy", "Mythology", "Literary Fiction", "Fiction", "Historical Fiction"],
-        "description": "A reimagining of the Greek myth of Circe, this novel follows the witch who transformed Odysseus's men into pigs, telling her own story of power, love, exile, and self-discovery."
+        "title": "Veins of the Earth",
+        "author": "Miguel de Cervantes",
+        "rating": 3.61,
+        "genres": ["Poetry", "Tragedy", "Science Fiction", "Mystery", "Classics"],
+        "description": "A moving exploration of human relationships and resilience. This beautifully written story delves into the human spirit's depths. An intriguing mystery wrapped in layers of social commentary. An epic adventure that tests the limits of friendship and loyalty. A story of courage and determination set against the backdrop of war. An unforgettable narrative that examines morality and justice. A poignant tale of love and betrayal in a small community. A poignant tale of love and betrayal in a small community. A moving exploration of human relationships and resilience. An intriguing mystery wrapped in layers of social commentary."
     },
     "108": {
         "title": "The Tattooist of Auschwitz",
@@ -840,11 +840,11 @@
         "description": "Set during World War II, the novel tells the story of a blind French girl and a German soldier, whose fates intertwine in the occupied city of Saint-Malo as the war unfolds."
     },
     "121": {
-        "title": "The Girl on the Train",
-        "author": "Paula Hawkins",
-        "rating": 4.1,
-        "genres": ["Psychological Thriller", "Mystery", "Fiction", "Crime", "Suspense"],
-        "description": "Rachel, a woman who commutes daily on the same train, becomes involved in a missing person case after witnessing something suspicious. As secrets unfold, her own past begins to unravel."
+        "title": "The Whispering Shadows",
+        "author": "Ernest Hemingway",
+        "rating": 4.71,
+        "genres": ["Classics", "Tragedy", "Poetry", "Biography", "Thriller"],
+        "description": "An intriguing mystery wrapped in layers of social commentary. An intriguing mystery wrapped in layers of social commentary. A poignant tale of love and betrayal in a small community. An epic adventure that tests the limits of friendship and loyalty. A story of courage and determination set against the backdrop of war. An epic adventure that tests the limits of friendship and loyalty. An epic adventure that tests the limits of friendship and loyalty. A gripping tale of life, love, and struggles in a complex world. An intriguing mystery wrapped in layers of social commentary. A sweeping saga of power, politics, and passion."
     },
     "122": {
         "title": "The Alchemist",
@@ -903,11 +903,11 @@
         "description": "In a magical competition between two young illusionists, a mysterious circus becomes the battleground. The novel is filled with enchanting details, love, and a sense of wonder."
     },
     "130": {
-        "title": "Educated",
-        "author": "Tara Westover",
-        "rating": 4.7,
-        "genres": ["Memoir", "Biography", "Non-fiction", "Family", "Self-discovery"],
-        "description": "Tara Westover recounts her story of growing up in a survivalist family in rural Idaho, her struggle for education, and her eventual escape from her controlling family to pursue a Ph.D. at Cambridge."
+        "title": "Shadows of the Ancients",
+        "author": "William Shakespeare",
+        "rating": 3.72,
+        "genres": ["Romance", "Science Fiction", "Tragedy"],
+        "description": "A story of courage and determination set against the backdrop of war. A gripping tale of life, love, and struggles in a complex world. A poignant tale of love and betrayal in a small community. A story of courage and determination set against the backdrop of war. A sweeping saga of power, politics, and passion. An unforgettable narrative that examines morality and justice. A poignant tale of love and betrayal in a small community. A story of courage and determination set against the backdrop of war. This beautifully written story delves into the human spirit's depths. This beautifully written story delves into the human spirit's depths."
     },
     "131": {
         "title": "The Invisible Life of Addie LaRue",
@@ -1092,11 +1092,11 @@
         "description": "The story follows four college friends as they navigate life and trauma, particularly focusing on Jude, whose painful past influences his present relationships and struggles."
     },
     "157": {
-        "title": "The Secret History",
-        "author": "Donna Tartt",
-        "rating": 4.2,
-        "genres": ["Thriller", "Mystery", "Literary Fiction"],
-        "description": "A group of eccentric students at an elite college become involved in a murder, which spirals out of control, leading to a dark and thrilling exploration of guilt and morality."
+        "title": "The Last Ember",
+        "author": "J.R.R. Tolkien",
+        "rating": 4.23,
+        "genres": ["Adventure", "Science Fiction", "Fantasy"],
+        "description": "An epic adventure that tests the limits of friendship and loyalty. This beautifully written story delves into the human spirit's depths. A poignant tale of love and betrayal in a small community. A moving exploration of human relationships and resilience. A story of courage and determination set against the backdrop of war. A story of courage and determination set against the backdrop of war. An unforgettable narrative that examines morality and justice. A sweeping saga of power, politics, and passion. A gripping tale of life, love, and struggles in a complex world. An intriguing mystery wrapped in layers of social commentary."
     },
     "158": {
         "title": "The Girl on the Train",
@@ -1106,11 +1106,11 @@
         "description": "Rachel, a woman with a troubled past, becomes obsessed with a seemingly perfect couple she watches from her train. When the woman goes missing, Rachel becomes involved in the investigation."
     },
     "159": {
-        "title": "The Outsiders",
-        "author": "S.E. Hinton",
-        "rating": 4.3,
-        "genres": ["Young Adult", "Coming-of-age", "Literary Fiction"],
-        "description": "The story of Ponyboy Curtis, a teenager caught between two worlds: the wealthy Socs and the working-class Greasers. A classic novel about loyalty, friendship, and class struggles."
+        "title": "Wings of the Storm",
+        "author": "Joseph Conrad",
+        "rating": 2.48,
+        "genres": ["Poetry", "Fiction", "Fantasy", "Thriller", "Drama", "Mystery"],
+        "description": "An intriguing mystery wrapped in layers of social commentary. An intriguing mystery wrapped in layers of social commentary. An unforgettable narrative that examines morality and justice. A sweeping saga of power, politics, and passion. An epic adventure that tests the limits of friendship and loyalty. A poignant tale of love and betrayal in a small community. An intriguing mystery wrapped in layers of social commentary. An unforgettable narrative that examines morality and justice. A story of courage and determination set against the backdrop of war. An unforgettable narrative that examines morality and justice."
     },
     "160": {
         "title": "Room",
