@@ -11,14 +11,14 @@
 
 <p align="left">Students: Jon Kuçi, Kaltrina Krasniqi, Erza Gashi, Edon Gashi</p><br><br>
 
-</p><br>
+</p>
 
 ## Project summary
 
 This program is a recommendation system using collaborative filtering. The program takes as input 3 JSON files, which contain a list of users, a list of books, and a dataset describing the ratings users give to books. The program can determine which books a specific user might like the most, based on the ratings they have given to other similar books. To achieve the most accurate results, calculations are performed using two methods: `Cosine Similarity` and `Pearson Similarity`, and their average is computed.
 <br><br>
 
- <br><br>
+ <br>
 ## How to Configure
 To execute, simply run the `main.py` file, which contains the mergeItemAndUserBased method within the MergingItemAndUserBased class. This method accepts 4 inputs:
 
@@ -29,12 +29,11 @@ To execute, simply run the `main.py` file, which contains the mergeItemAndUserBa
 After this method is executed, a list of books will be displayed that the user with the specified ID might like based on their previous preferences. The list is sorted by similarity to the liked books and the ratings those books have received.
 <br><br>
 
-## Cosine similarity explanation
-Cosine Similarity is a metric used to measure the similarity between two non-zero vectors in an inner product space. It calculates the cosine of the angle between two vectors, with values ranging from -1 to 1:
+## Cosine similarity
+Cosine Similarity is a metric used to measure the similarity between two non-zero vectors in an inner product space. It calculates the cosine of the angle between two vectors, with values ranging from 0 to 1:
 
  - 1 indicates that the vectors are identical.
  - 0 indicates that the vectors are orthogonal (no similarity).
- - -1 indicates that the vectors are diametrically opposite.
 This metric is widely used in recommendation systems to find similarities between users, items, or ratings.
 
 In this approach, the items we want to compare are represented as vectors, and using mathematical formulas, we calculate the angle between them. The cosine of that angle indicates how similar the items represented by those two vectors are.
@@ -66,18 +65,12 @@ $$
 \text{Cosine Similarity} = \frac{\sum_{i=1}^n A_i B_i}{\sqrt{\sum_{i=1}^n A_i^2} \cdot \sqrt{\sum_{i=1}^n B_i^2}}
 $$
 
-Where:
-- \(A\) and \(B\) are the two vectors you want to compare.
-- The numerator is the dot product of the two vectors.
-- The denominator is the product of the magnitudes (or norms) of the vectors.
 
 Given the vectors:
 
 $$
 A = [1, 1], \quad B = [1, 0]
 $$
-
-The calculation of cosine similarity is as follows:
 
 $$
 \text{Cosine Similarity} = \frac{(1 \times 1) + (1 \times 0)}{\sqrt{1^2 + 1^2} \cdot \sqrt{1^2 + 0^2}} = \frac{1}{\sqrt{2} \cdot 1} = 0.71
@@ -90,7 +83,7 @@ Thus, the cosine similarity between the vectors \(A\) and \(B\) is approximately
 In this form we calculate the cosine similarity of books 
 
 ## What we build out of it ?
-In this way, we have compared books to determine how they are similar by calculating the cosine similarity between the sentences found in the attributes of the books (title, author, genres, and description). The results of the comparisons have been placed in 4 matrices (one matrix for each attribute).
+In this way, we have compared books "Item Based" to determine how they are similar by calculating the cosine similarity between the sentences found in the attributes of the books (title, author, genres, and description). The results of the comparisons have been placed in 4 matrices (one matrix for each attribute).
 One matrix looks like this:<br>
 
 |                | Book n+1       | Book n+2      | ...           | Book n+m      |
