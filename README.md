@@ -4,7 +4,7 @@
   </a>
 
 <h2 align="center">University of Prishtina : Faculty of Electrical and Computer Engineering</h2>
-<h3 align="center">Course: Diesign and Analysis of Algorithms</h3>
+<h3 align="center">Course: Design and Analysis of Algorithms</h3>
 <h2 align="center">Project: Recommender System with Collaborative Filtering</h2>
 <p align="left">Professor: Avni Rexhepi</p>
 <p align="left">Assistant: Adrian Ymeri</p>
@@ -19,8 +19,9 @@ This program is a recommendation system using collaborative filtering. The progr
 <br><br>
 
  <br>
+ 
 ## How to Configure
-To execute, simply run the `main.py` file, which contains the mergeItemAndUserBased method within the MergingItemAndUserBased class. This method accepts 4 inputs:
+To execute, simply run the `main.py` file, which contains the `mergeItemAndUserBased` method within the `MergingItemAndUserBased` class. This method accepts 4 inputs:
 
  - `userId`: the ID of the user for whom you want to predict which books they might like.
  - `data`: the input dataset.
@@ -41,7 +42,7 @@ In this approach, the items we want to compare are represented as vectors, and u
 
 Let's take an example of representing two sentences as vectors and finding the similarity between them.
  - Sentence A: "Hello, world"
- - Sentence B: "Hello, Hello"
+ - Sentence B: "Hello hello"
 
 We create a table where the first column contains the two sentences, and the first row lists each word from both sentences. The table is filled with values indicating how many times each word appears in the respective sentence.
 
@@ -81,11 +82,10 @@ Thus, the cosine similarity between the vectors \(A\) and \(B\) is approximately
 
 <br>
 
-In this form we calculate the cosine similarity of books 
-
 ## What we build out of it ?
 In this way, we have compared books "Item Based" to determine how they are similar by calculating the cosine similarity between the sentences found in the attributes of the books (title, author, genres, and description). The results of the comparisons have been placed in 4 matrices (one matrix for each attribute).
-One matrix looks like this:<br>
+One matrix looks like this:
+<br>
 
 |                | Book n+1       | Book n+2      | ...           | Book n+m      |
 |----------------|----------------|---------------|---------------|---------------|
@@ -97,8 +97,8 @@ One matrix looks like this:<br>
 
 From `1` to `n` are books that the user rated, and from `n+1` to `n+m` are the books that the user has gived rating."
 
-For each book that user has not gived any rate, from this table we calculate an average of similarity with all other rated books, indicated by the rate that user has gived to rated books. This means that we build a vector that has the value for each unrated books. We did this for 4 matrixes so this means that we have 4 vectors (for 4 books atribures). 
-Then we combined these 4 vectors, taking into account the importance of each attribute (title, author, genres, description, each having a value from 0 to 1, and many of them having a value of 1). So, we ended up with a single vector.
+For each book that user has not gived any rate, from this table we calculate an average of similarity with all other rated books, indicated by the rate that user has gived to rated books. This means that we build a vector that has the value for each unrated books. We did this for 4 matrixes so this means that we have 4 vectors (for 4 books atributes). 
+Then we combined these 4 vectors, taking into account the importance of each attribute (title, author, genres, description, each having a value from 0 to 1, and sum of them having a value of 1). So, we ended up with a single vector.
 
 We combined this vector with the vector obtained from the calculations with Pearson similarity (which is user-based), but the combination happens in such a way that their effect on the final result depends on the number of ratings given by users in comparison to the number of books. This is described by the coefficients `alpha` and `beta`.
 
