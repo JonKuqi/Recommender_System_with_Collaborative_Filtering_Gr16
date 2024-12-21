@@ -107,7 +107,13 @@ We combined this vector with the vector obtained from the calculations with Pear
 Besides being very functional, this program is also efficient. Considering the number of calculations required by a matrix, and the programming language we used, we found it reasonable to perform some of the calculations in the C programming language. For more than that, the calculations were done with AXV registers. This ensures an increase in calculation speed.
 
 In operations where addition or multiplication between vector elements was required, we used registers that hold 4 variables, and the addition or multiplication of the 4 variables is done simultaneously. Therefore, loops for iteration have an increment step of +4.
-
+<p align="center">
+  <br>
+<a>
+    <img src="img_1.png" alt="Logo" height="430" align="center">
+  </a>
+  </p>
+<br><br>
 <br><br>
 1. Clone this project:
    ```bash
